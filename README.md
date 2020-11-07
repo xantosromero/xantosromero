@@ -1,4 +1,4 @@
-<h1 align="center">Hola 🙋‍♂️, soy Santos Romero</h1>
+<h1 align="center">Hola 🙋‍♂️ desarrollador(a), soy Santos Romero</h1>
 <h3 align="center">Apasionado por el desarrollo web frontend viviendo en Lima Perú</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xantosromero&label=Profile%20views&color=0e75b6&style=flat" alt="xantosromero" /> </p>
