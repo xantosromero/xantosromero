@@ -17,11 +17,11 @@
 
 - 👨‍💻 Todos mis proyectos están en [codepen](codepen.io/xantosromero)
 
-- 💬 Preguntame sobre **tecnologías frontend**
+- 💬 Pregúntame sobre **tecnologías frontend**
 
 - 📫 Contáctame en **xantosromero@gmail.com**
 
-- 📄 Conoce mis experiencias en [xantosromero.github.io/myresume/](xantosromero.github.io/myresume/)
+- 📄 Conoce mi trayectoria en [myresume](xantosromero.github.io/myresume/)
 
 - ⚡ Hobbies **cachorros, música electrónica y motocicleta**
 
