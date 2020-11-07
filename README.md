@@ -1,11 +1,17 @@
-### Hola comunidad 👋
+### 👋¡Hola, soy Santos Romero!
+### Desarrollador Web Frontend
+
+#### Encuéntrame en:
+
+[website]: https//twitter.com/xantosromero
+
 
 <!--
 **xantosromero/xantosromero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Estoy mejorando mis habilidades en diseño y desarrollo web.
+Estoy mejorando mis habilidades en desarrollo web.
 
-- 🔭 I’m currently working on ...
+- 🔭 Ahora estoy aprendiendo en W3Schools
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
