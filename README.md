@@ -1,4 +1,4 @@
-### 👋¡Hola, soy Santos Romero!
+### 👋¡Hola desarrollador, soy Santos Romero!
 ### Desarrollador Web Frontend
 
 #### Encuéntrame en:
