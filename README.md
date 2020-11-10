@@ -15,15 +15,15 @@
 
 - 🙏 Estoy buscando ayuda para mi **sitio web personal**
 
-- 👨‍💻 Todos mis proyectos están en [codepen](codepen.io/xantosromero)
+- 👨‍💻 Todos mis proyectos están en [codepen](https://codepen.io/your-work)
 
 - 💬 Pregúntame sobre **tecnologías frontend**
 
 - 📫 Contáctame en **xantosromero@gmail.com**
 
-- 📄 Conoce mi trayectoria en [myresume](xantosromero.github.io/myresume/)
+- 📄 Conoce mi trayectoria en [myresume](https://xantosromero.github.io/myresume/)
 
-- ⚡ Hobbies **cachorros, música electrónica y motocicleta**
+- ⚡ Hobbies **jugar con mis cachorros, oír música electrónica o conducir motocicleta**
 
 <h3 align="left">Puedes encontrarme en:</h3>
 <p align="left">
