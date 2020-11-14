@@ -21,8 +21,6 @@
 
 - 📫 Contáctame en **xantosromero@gmail.com**
 
-- 📄 Conoce mi trayectoria en [myresume](https://xantosromero.github.io/myresume/)
-
 - ⚡ Hobbies **jugar con mis cachorros, oír música electrónica o conducir motocicleta**
 
 <h3 align="left">Puedes encontrarme en:</h3>
