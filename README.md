@@ -1,5 +1,5 @@
 <h1 align="center">Hola 🙋‍♂️ desarrollador(a), soy Santos Romero</h1>
-<h3 align="center">Apasionado por el desarrollo web frontend viviendo en Lima Perú</h3>
+<h3 align="center">Apasionado por el desarrollo frontend viviendo en Lima Perú. Disfruto convertir los prototipos en código.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xantosromero&label=Profile%20views&color=0e75b6&style=flat" alt="xantosromero" /> </p>
 
@@ -11,17 +11,13 @@
 
 - 👨‍💻 Ahora estoy aprendiendo **HTML, CSS, JavaScript and Git**
 
-- 🤝 Estoy buscando colaborar en **proyectos de diseño frontend**
+- 🤝 Estoy buscando colaborar en **proyectos frontend**
 
-- 🙏 Estoy buscando ayuda para mi **sitio web personal**
+- 🙏 Estoy buscando ayuda para mi **marca personal**
 
 - 👨‍💻 Todos mis proyectos están en [codepen](https://codepen.io/your-work)
 
-- 💬 Pregúntame sobre **tecnologías frontend**
-
-- 📫 Contáctame en **xantosromero@gmail.com**
-
-- ⚡ Hobbies **jugar con mis cachorros, oír música electrónica o conducir motocicleta**
+- 📫 Contáctame a **xantosromero@gmail.com**
 
 <h3 align="left">Puedes encontrarme en:</h3>
 <p align="left">
