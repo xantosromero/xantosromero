@@ -7,13 +7,11 @@
 
 <p align="left"> <a href="https://twitter.com/xantosromero" target="blank"><img src="https://img.shields.io/twitter/follow/xantosromero?logo=twitter&style=for-the-badge" alt="xantosromero" /></a> </p>
 
-- 👷‍♂️ Actualmente estoy trabajando en mi [portafolio personal](https://xantosromero.github.io/myresume/landing.html)
+- 👷‍♂️ Actualmente estoy trabajando en mi [portafolio](https://xantosromero.github.io/myresume/landing.html)
 
-- 👨‍💻 Ahora estoy aprendiendo **HTML, CSS, JavaScript and Git**
+- 👨‍💻 Estoy aprendiendo **HTML, CSS, JavaScript and Git**
 
-- 🤝 Estoy buscando colaborar en **proyectos frontend**
-
-- 🙏 Estoy buscando ayuda para mi **marca personal**
+- 🤝 Estoy buscando trabajar como **desarrollador frontend**
 
 - 👨‍💻 Todos mis proyectos están en [codepen](https://codepen.io/your-work)
 
