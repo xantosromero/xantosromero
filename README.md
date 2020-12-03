@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/xantosromero" target="blank"><img src="https://img.shields.io/twitter/follow/xantosromero?logo=twitter&style=for-the-badge" alt="xantosromero" /></a> </p>
 
-- 👷‍♂️ Actualmente estoy trabajando en mi [portafolio](https://xantosromero.github.io/myresume/landing.html)
+- 👷‍♂️ Actualmente estoy trabajando en mi portafolio personal
 
 - 👨‍💻 Estoy aprendiendo **HTML, CSS, JavaScript and Git**
 
