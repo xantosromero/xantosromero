@@ -12,7 +12,7 @@
 
 - 👨‍💻 Estoy aprendiendo **HTML, CSS, JavaScript and Git**
 
-- 🤝 Estoy buscando trabajar como **desarrollador frontend**
+- 🤝 Estoy buscando evolucionar como **Desarrollador Frontend**
 
 - 👨‍💻 Todos mis proyectos están en [codepen](https://codepen.io/your-work)
 
@@ -20,11 +20,10 @@
 
 <h3 align="left">Puedes encontrarme en:</h3>
 <p align="left">
-<a href="https://codepen.io/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="xantosromero" height="30" width="40" /></a>
-<a href="https://dev.to/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="xantosromero" height="30" width="40" /></a>
-<a href="https://twitter.com/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="xantosromero" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="xantosromero" height="30" width="40" /></a>
+<a href="https://twitter.com/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="xantosromero" height="30" width="40" /></a>
 <a href="https://instagram.com/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="xantosromero" height="30" width="40" /></a>
+<a href="https://codepen.io/xantosromero" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="xantosromero" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Lenguajes y herramientas:</h3>
