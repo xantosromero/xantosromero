@@ -1,5 +1,6 @@
-<h1 align="center">Hola, 🙋‍♂️ bienvenido, soy Santos Romero</h1>
-<h3 align="center">Apasionado por el desarrollo frontend viviendo en Lima Perú. Disfruto de convertir los prototipos a código.</h3>
+<h1 align="center">Bienvenido, soy Santos Romero</h1>
+<h3 align="center">Desarrollador frontend</h3>
+<h3 align="center">Convertir los prototipos a código es una de las cosas que más disfruto hacer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xantosromero&label=Profile%20views&color=0e75b6&style=flat" alt="xantosromero" /> </p>
 
