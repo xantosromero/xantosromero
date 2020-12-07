@@ -8,13 +8,13 @@
 
 <p align="left"> <a href="https://twitter.com/xantosromero" target="blank"><img src="https://img.shields.io/twitter/follow/xantosromero?logo=twitter&style=for-the-badge" alt="xantosromero" /></a> </p>
 
-- 👷‍♂️ Actualmente estoy trabajando en mi **portafolio**
+- 👷‍♂️ Trabajando en mi **portafolio**
 
-- 👨‍💻 Estoy aprendiendo **HTML, CSS y JavaScript**
+- 👨‍💻 Aprendiendo **HTML, CSS y JavaScript**
 
-- 🤝 Estoy buscando evolucionar como **Desarrollador Frontend**
+- 🤝 Buscando evolucionar como **Desarrollador Frontend**
 
-- 👨‍💻 Todos mis proyectos están en [codepen](https://codepen.io/your-work)
+- 👨‍💻 Busca mis proyectos en **[codepen](https://codepen.io/your-work)**
 
 - 📫 Contáctame a **xantosromero@gmail.com**
 
