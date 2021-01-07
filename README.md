@@ -10,7 +10,7 @@
 
 - 👷‍♂️ Trabajando en mi **portafolio**
 
-- 👨‍💻 Aprendiendo **HTML, CSS y JavaScript**
+- 👨‍💻 Aprendiendo **HTML, CSS, SASS, JavaScript y GitHub**
 
 - 🤝 Buscando evolucionar como **Desarrollador Frontend**
 
