@@ -41,6 +41,19 @@ body {
             @extend decoration;
             margin-left: 60px;
         }
+
+        a.active {
+            border-bottom: 2px solid $secondary-color;
+        }
+        /*
+            FALTA AGREGAR:
+            Border menu activo
+            Ícono chevron down
+        */
+
+        // .underline {
+        //     @extend underline;
+        // }
     }
 
     .banner {
