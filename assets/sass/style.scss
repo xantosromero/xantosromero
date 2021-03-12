@@ -44,9 +44,8 @@ body {
 
         nav a{
             @extend decoration;
+            @extend borderbottom;
             margin-left: 60px;
-            padding-bottom: 5px;
-            border-bottom: 3px solid transparent;
         }
 
         nav a:hover {
@@ -93,13 +92,67 @@ body {
             color: $secondary-color;
             font-size: 2em;
             margin-top: 3.5em;
-        }
 
-        .icono:hover {
-            color: rgba(255, 255, 255, .8);
-            // box-shadow: 1px 1px 6px rgba(255, 255, 255, 1);
+            &:hover {
+                color: rgba(255, 255, 255, .7);
+            }
         }
     }
 }
 
 //========== ACERCA ==========
+.about-content {
+    background-color: $secondary-color;
+
+    .titulo {
+        @extend titulo;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .about {
+        background-color: $secondary-color;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 0 160px;
+
+        .profile {
+            width: 500px;
+
+            h2 {
+                @extend borderbottom;
+                width: 55px;
+                border-bottom: 3px solid $primary-color;
+                font-size: 22px;
+            }
+
+            p {
+                margin-top: 20px;
+                line-height: 25px;
+            }
+        }
+
+        .skill {
+            border: 1px solid #000;
+            width: 400px;
+
+            h2 {
+                @extend borderbottom;
+                width: 70px;
+                border-bottom: 3px solid $primary-color;
+                font-size: 22px;
+            }
+
+            .tool {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+        }
+    }
+
+}
