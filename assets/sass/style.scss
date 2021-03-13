@@ -19,8 +19,12 @@ h1 {font-size: 30px;}
 h2 {font-size: 24px;}
 h3 {font-size: 20px;}
 h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
 a {font-size: 18px;}
 p {font-size: 16px;}
+.titulo {@extend titulo;h1{margin-bottom: 15px;}}
+.btn {@extend boton;margin: 0 10px;}
 
 body {
     background-color: $secondary-color;
@@ -90,7 +94,7 @@ body {
                 border-radius: 50%;
             }
 
-            .icono {
+            .icon-down {
                 color: $secondary-color;
                 font-size: 1.7em;
                 margin-top: 2.5em;
@@ -108,11 +112,6 @@ body {
     .about-content {
         background-color: $secondary-color;
         padding: 40px;
-
-        .titulo {
-            @extend titulo;
-            h1{margin-bottom: 15px;}
-        }
 
         .about {
             background-color: $secondary-color;
@@ -199,11 +198,6 @@ body {
             .btn-content {
                 margin-top: 30px;
 
-                .btn {
-                    @extend boton;
-                    margin: 0 10px;
-                }
-
                 .download {
                     color: $primary-color;
                     border: 1.5px solid transparent;
@@ -222,6 +216,56 @@ body {
                         background-color: $secondary-color;
                         color: $primary-color;
                     }
+                }
+            }
+        }
+    }
+
+    //========== PORTFOLIO ==========
+    .portfolio-content {
+        padding: 40px;
+        background-color: $secondary-color;
+
+        a {
+            @extend decoration;
+            color: dodgerblue;
+            &:hover{text-decoration: underline;}
+        }
+
+        .container-project {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            .project {
+                width: 400px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 1px 1px 6px #d8d8d9;
+
+                img {
+                    background-size: cover;
+                }
+
+                .info-project {
+                    padding: 20px;
+                }
+            }
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 40px;
+
+            .load {
+                background-color: transparent;
+                border: 1.5px solid $primary-color;
+                color: $primary-color;
+
+                &:hover {
+                    background-color: $primary-color;
+                    color: $secondary-color;
                 }
             }
         }
