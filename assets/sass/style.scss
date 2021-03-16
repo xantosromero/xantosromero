@@ -8,11 +8,8 @@
 }
 
 // Colores
-$primary-color: #191A1D;
-$secondary-color: #f4f4f4;
-$white-color: #fff;
-$black-color: #000;
-$dark-color: #333;
+$dark-color: #191A1D;
+$white-color: #f4f4f4;
 
 // =========GENERAL============
 h1 {font-size: 30px;}
@@ -23,251 +20,272 @@ h5 {font-size: 16px;}
 h6 {font-size: 14px;}
 a {font-size: 18px;}
 p {font-size: 16px;}
-.titulo {@extend titulo;h1{margin-bottom: 15px;}}
-.btn {@extend boton;margin: 0 10px;}
 
 body {
-    background-color: $secondary-color;
+    background-color: #fff;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
 }
 
-//========== INICIO ==========
-.page-container {
-    margin: auto;
+// HEADER
+.header {
+    position: fixed;
+    background-color: $dark-color;
+    color: $white-color;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a img {
+    width: 70px;
+    object-fit: cover;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
     //========== MAIN ==========
-    .main-content {
-        background-color: $primary-color;
+    // .main-content {
+    //     background-color: $primary-color;
 
-        header {
-            background-color: $primary-color;
-            width: 100%;
-            height: 100px;
-            padding: 20px 0;
+    //     header {
+    //         background-color: $primary-color;
+    //         width: 100%;
+    //         height: 100px;
+    //         padding: 20px 0;
 
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
+    //         display: flex;
+    //         flex-direction: row;
+    //         flex-wrap: wrap;
+    //         justify-content: space-around;
+    //         align-items: center;
 
-            .logo a {
-                @extend decoration;
-                font-size: 26px;
-            }
+    //         .logo a {
+    //             @extend decoration;
+    //             font-size: 26px;
+    //         }
 
-            .menu a {
-                @extend decoration;
-                @extend borderbottom;
-                margin-left: 70px;
-            }
+    //         .menu a {
+    //             @extend decoration;
+    //             @extend borderbottom;
+    //             margin-left: 70px;
+    //         }
 
-            .menu a:hover {
-                border-bottom: 3px solid $secondary-color;
-                transition: all .3s ease-in-out;
-            }
+    //         .menu a:hover {
+    //             border-bottom: 3px solid $secondary-color;
+    //             transition: all .3s ease-in-out;
+    //         }
 
-            .menu a.active {
-                border-bottom: 3px solid $secondary-color;
-            }
-        }
+    //         .menu a.active {
+    //             border-bottom: 3px solid $secondary-color;
+    //         }
+    //     }
 
-        .banner {
-            @extend bannerimage;
-            height: calc(100vh - 100px);
-            background: url('../images/background.jpg'), $primary-color;
-            background-position: bottom center;
-        }
+    //     .banner {
+    //         @extend bannerimage;
+    //         height: calc(100vh - 100px);
+    //         background: url('../images/background.jpg'), $primary-color;
+    //         background-position: bottom center;
+    //     }
 
-        .banner-content {
-            width: 100%;
-            height: 100%;
-            color: $secondary-color;
-            background-color: rgba(0, 0, 0, .7);
-            text-align: center;
-            line-height: 60px;
+    //     .banner-content {
+    //         width: 100%;
+    //         height: 100%;
+    //         color: $secondary-color;
+    //         background-color: rgba(0, 0, 0, .7);
+    //         text-align: center;
+    //         line-height: 60px;
 
-            .avatar {
-                margin-top: 80px;
-                border: 3px solid $secondary-color;
-                border-radius: 50%;
-            }
+    //         .avatar {
+    //             margin-top: 80px;
+    //             border: 3px solid $secondary-color;
+    //             border-radius: 50%;
+    //         }
 
-            .icon-down {
-                color: $secondary-color;
-                font-size: 1.7em;
-                margin-top: 2.5em;
-                color: #fff;
+    //         .icon-down {
+    //             color: $secondary-color;
+    //             font-size: 1.7em;
+    //             margin-top: 2.5em;
+    //             color: #fff;
 
-                &:hover {
-                    font-size: 1.72em;
-                    color: rgba(255, 255, 255, .7);
-                }
-            }
-        }
-    }
+    //             &:hover {
+    //                 font-size: 1.72em;
+    //                 color: rgba(255, 255, 255, .7);
+    //             }
+    //         }
+    //     }
+    // }
 
     //========== ACERCA ==========
-    .about-content {
-        background-color: $secondary-color;
-        padding: 40px;
+    // .about-content {
+    //     background-color: $secondary-color;
+    //     padding: 40px;
 
-        .about {
-            background-color: $secondary-color;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 30px 120px;
+    //     .about {
+    //         background-color: $secondary-color;
+    //         display: flex;
+    //         flex-direction: row;
+    //         flex-wrap: wrap;
+    //         justify-content: space-between;
+    //         align-items: flex-start;
+    //         padding: 30px 120px;
 
-            .profile {
-                width: 500px;
+    //         .profile {
+    //             width: 500px;
 
-                h3 {
-                    @extend borderbottom;
-                    width: 55px;
-                    border-bottom: 3px solid $primary-color;
-                }
+    //             h3 {
+    //                 @extend borderbottom;
+    //                 width: 55px;
+    //                 border-bottom: 3px solid $primary-color;
+    //             }
 
-                p {
-                    margin-top: 20px;
-                    line-height: 25px;
-                }
+    //             p {
+    //                 margin-top: 20px;
+    //                 line-height: 25px;
+    //             }
 
-                a {
-                    color: dodgerblue;
-                    text-decoration: none;
-                    font-weight: 500;
-                    &:hover {text-decoration: underline;
-                    font-weight: 600;}
-                }
-            }
+    //             a {
+    //                 color: dodgerblue;
+    //                 text-decoration: none;
+    //                 font-weight: 500;
+    //                 &:hover {text-decoration: underline;
+    //                 font-weight: 600;}
+    //             }
+    //         }
 
-            .skill {
-                width: 300px;
+    //         .skill {
+    //             width: 300px;
 
-                h3 {
-                    @extend borderbottom;
-                    width: 70px;
-                    border-bottom: 3px solid $primary-color;
-                }
+    //             h3 {
+    //                 @extend borderbottom;
+    //                 width: 70px;
+    //                 border-bottom: 3px solid $primary-color;
+    //             }
 
-                .tool {
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: flex-start;
-                    margin-top: 20px;
+    //             .tool {
+    //                 display: flex;
+    //                 justify-content: flex-start;
+    //                 align-items: flex-start;
+    //                 margin-top: 20px;
 
-                    .info {
-                        margin-left: 15px;
+    //                 .info {
+    //                     margin-left: 15px;
 
-                        p {
-                            font-size: 15px;
-                            font-weight: bold;
-                        }
+    //                     p {
+    //                         font-size: 15px;
+    //                         font-weight: bold;
+    //                     }
 
-                        small {
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-        }
+    //                     small {
+    //                         font-size: 14px;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
 
-    }
+    // }
 
-    //========== CALL TO ACTION ==========
-    .cta-banner {
-        @extend bannerimage;
-        height: 400px;
-        background: url('../images/hero.jpg'), $primary-color;
-        background-position: center center;
-        text-align: center;
+    // //========== CALL TO ACTION ==========
+    // .cta-banner {
+    //     @extend bannerimage;
+    //     height: 400px;
+    //     background: url('../images/hero.jpg'), $primary-color;
+    //     background-position: center center;
+    //     text-align: center;
 
-        .cta-content {
-            width: 100%;
-            height: 100%;
-            color: $secondary-color;
-            background-color: rgba(0, 0, 0, .8);
-            line-height: 80px;
-            padding: 60px 0;
-            p{line-height: 25px;}
+    //     .cta-content {
+    //         width: 100%;
+    //         height: 100%;
+    //         color: $secondary-color;
+    //         background-color: rgba(0, 0, 0, .8);
+    //         line-height: 80px;
+    //         padding: 60px 0;
+    //         p{line-height: 25px;}
 
-            .btn-content {
-                margin-top: 30px;
+    //         .btn-content {
+    //             margin-top: 30px;
 
-                .download {
-                    color: $primary-color;
-                    border: 1.5px solid transparent;
-                    &:hover{
-                        background-color: transparent;
-                        color: $secondary-color;
-                        border: 1.5px solid $secondary-color;
-                    }
-                }
+    //             .download {
+    //                 color: $primary-color;
+    //                 border: 1.5px solid transparent;
+    //                 &:hover{
+    //                     background-color: transparent;
+    //                     color: $secondary-color;
+    //                     border: 1.5px solid $secondary-color;
+    //                 }
+    //             }
 
-                .wantpage {
-                    color: $secondary-color;
-                    background-color: transparent;
-                    border: 1.5px solid $secondary-color;
-                    &:hover{
-                        background-color: $secondary-color;
-                        color: $primary-color;
-                    }
-                }
-            }
-        }
-    }
+    //             .wantpage {
+    //                 color: $secondary-color;
+    //                 background-color: transparent;
+    //                 border: 1.5px solid $secondary-color;
+    //                 &:hover{
+    //                     background-color: $secondary-color;
+    //                     color: $primary-color;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 
-    //========== PORTFOLIO ==========
-    .portfolio-content {
-        padding: 40px;
-        background-color: $secondary-color;
+    // //========== PORTFOLIO ==========
+    // .portfolio-content {
+    //     padding: 40px;
+    //     background-color: $secondary-color;
 
-        a {
-            @extend decoration;
-            color: dodgerblue;
-            &:hover{text-decoration: underline;}
-        }
+    //     a {
+    //         @extend decoration;
+    //         color: dodgerblue;
+    //         &:hover{text-decoration: underline;}
+    //     }
 
-        .container-project {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+    //     .container-project {
+    //         width: 100%;
+    //         display: grid;
+    //         grid-template-columns: repeat(3, 1fr);
+    //         gap: 20px;
 
-            .project {
-                width: 400px;
-                background-color: #fff;
-                border-radius: 5px;
-                box-shadow: 1px 1px 6px #d8d8d9;
+    //         .project {
+    //             width: 400px;
+    //             background-color: #fff;
+    //             border-radius: 5px;
+    //             box-shadow: 1px 1px 6px #d8d8d9;
 
-                img {
-                    background-size: cover;
-                }
+    //             img {
+    //                 background-size: cover;
+    //             }
 
-                .info-project {
-                    padding: 20px;
-                }
-            }
-        }
+    //             .info-project {
+    //                 padding: 20px;
+    //             }
+    //         }
+    //     }
 
-        .button {
-            text-align: center;
-            margin-top: 40px;
+    //     .button {
+    //         text-align: center;
+    //         margin-top: 40px;
 
-            .load {
-                background-color: transparent;
-                border: 1.5px solid $primary-color;
-                color: $primary-color;
+    //         .load {
+    //             background-color: transparent;
+    //             border: 1.5px solid $primary-color;
+    //             color: $primary-color;
 
-                &:hover {
-                    background-color: $primary-color;
-                    color: $secondary-color;
-                }
-            }
-        }
-    }
-}
+    //             &:hover {
+    //                 background-color: $primary-color;
+    //                 color: $secondary-color;
+    //             }
+    //         }
+    //     }
+    // }
