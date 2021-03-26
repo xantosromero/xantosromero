@@ -31,45 +31,111 @@
     ></script>
   </head>
   <body>
-    <section class="header-section">
-      <header class="header">
-        <div class="logo">
-          <a href="#">
-            <img src="./assets/images/logo.png" alt="logo" />
-          </a>
+    <header class="navbar">
+      <div class="logo">
+        <a href="#inicio">
+          <img src="./assets/images/logo.png" alt="logo" />
+        </a>
+      </div>
+      <nav class="menu">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#acerca">Acerca</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <main>
+        <div class="banner">
+          <div class="banner-content">
+            <img src="./assets/images/avatar.jpg" alt="avatar" class="avatar" />
+            <h2>Hola, soy Santos Romero</h2>
+            <h3>Desarrollador Frontend</h3>
+            <a href="#acerca" class="icono-down">
+              <i class="fa fa-arrow-circle-down"></i>
+            </a>
+          </div>
         </div>
-        <nav class="menu">
-          <a href="#inicio" class="active">Inicio</a>
-          <a href="#acerca">Acerca</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
-      </header>
+      </main>
     </section>
 
-    <!-- <section class="main-content" id="inicio">
-      <header>
-        <div class="logo">
-          <a href="#inicio">My Website</a>
+    <section class="first-section" id="acerca">
+      <div class="container-section">
+        <div class="title-section">
+          <h1>Acerca de mi</h1>
+          <p>
+            Conoce un poco más de mi trayectoria y las herramientas que empleo
+            en mis proyectos.
+          </p>
         </div>
-        <nav class="menu">
-          <a href="#inicio" class="active">Inicio</a>
-          <a href="#acerca">Acerca</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
-      </header>
-      <div class="banner">
-        <div class="banner-content">
-          <img src="./assets/images/avatar.jpg" alt="avatar" class="avatar" />
-          <h2>Hola, soy Santos Romero</h2>
-          <h3>Desarrollador Frontend</h3>
-          <a href="#acerca">
-            <i class="fa fa-arrow-circle-down icon-down"></i>
-          </a>
+        <div class="container-acerca">
+          <div class="profile">
+            <h3>Perfil</h3>
+            <p>
+              He desarrollado la capacidad de
+              <strong>traducir los diseños</strong> a código rápidamente usando
+              las tecnologías adecuadas según los objetivos de cada proyecto.
+            </p>
+            <p>
+              Me encanta el trabajo remoto porque nos da libertad para organizar
+              mejor nuestro tiempo.
+            </p>
+            <p>
+              Si estás buscando
+              <strong>talento para incorporar a tu equipo</strong> contáctame
+              para trabajar juntos <a href="#modaltalento">aquí</a>
+            </p>
+            <p>
+              Si estás buscando crear una
+              <strong>página web para tu negocio</strong> contáctame para
+              ayudarte a crear una <a href="#modalpweb">aquí</a>
+            </p>
+          </div>
+          <div class="skill">
+            <h3>Habilidades</h3>
+            <div class="tool">
+              <img src="./assets/images/iconos/html5.png" alt="html5" />
+              <div class="info">
+                <p>HTML</p>
+                <small>01 año de experiencia</small>
+              </div>
+            </div>
+            <div class="tool">
+              <img src="./assets/images/iconos/css3.png" alt="css3" />
+              <div class="info">
+                <p>CSS</p>
+                <small>01 año de experiencia</small>
+              </div>
+            </div>
+            <div class="tool">
+              <img src="./assets/images/iconos/sass.png" alt="sass" />
+              <div class="info">
+                <p>SASS</p>
+                <small>01 año de experiencia</small>
+              </div>
+            </div>
+            <div class="tool">
+              <img
+                src="./assets/images/iconos/javascript.png"
+                alt="javascript"
+              />
+              <div class="info">
+                <p>JavaScript</p>
+                <small>01 año de experiencia</small>
+              </div>
+            </div>
+            <div class="tool">
+              <img src="./assets/images/iconos/github.png" alt="github" />
+              <div class="info">
+                <p>GitHub</p>
+                <small>01 año de experiencia</small>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- <section class="about-content" id="acerca">
       <div class="titulo">
