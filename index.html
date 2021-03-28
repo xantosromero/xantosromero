@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="frontend developer pagina web" />
+    <meta name="description" content="desarrollador web frontend" />
     <meta
       name="kw"
-      content="frontend developer, desarrollador web, diseñador web"
+      content="desarrollador web, desarrollador frontend, pagina web, landing page"
     />
     <meta name="author" content="santos romero" />
-    <title>Frontend Developer | Inicio</title>
+    <title>Frontend Developer | Santos Romero</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
@@ -31,28 +31,32 @@
     ></script>
   </head>
   <body>
-    <header class="navbar">
-      <div class="logo">
-        <a href="#inicio">
-          <img src="./assets/images/logo.png" alt="logo" />
-        </a>
+    <div class="header">
+      <div class="grid">
+        <header class="navbar">
+          <div class="logo">
+            <a href="#inicio">
+              <img src="./assets/images/logo.png" alt="logo" class="img-logo" />
+            </a>
+          </div>
+          <nav class="menu">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#acerca">Acerca</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </header>
       </div>
-      <nav class="menu">
-        <a href="#inicio" class="active">Inicio</a>
-        <a href="#acerca">Acerca</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-    </header>
+    </div>
 
-    <section id="inicio">
+    <section class="section-first" id="inicio">
       <main>
         <div class="banner">
           <div class="banner-content">
             <img src="./assets/images/avatar.jpg" alt="avatar" class="avatar" />
             <h2>Hola, soy Santos Romero</h2>
             <h3>Desarrollador Frontend</h3>
-            <a href="#acerca" class="icono-down">
+            <a href="#acerca" class="icono">
               <i class="fa fa-arrow-circle-down"></i>
             </a>
           </div>
@@ -60,18 +64,18 @@
       </main>
     </section>
 
-    <section class="first-section" id="acerca">
-      <div class="container-section">
-        <div class="title-section">
+    <section class="section-second" id="acerca">
+      <div class="grid">
+        <div class="section-title">
           <h1>Acerca de mi</h1>
-          <p>
-            Conoce un poco más de mi trayectoria y las herramientas que empleo
-            en mis proyectos.
+          <p class="espacio">
+            Conoce un poco más de mi trayectoria y las herramientas que puedo
+            emplear para tus proyectos e ideas.
           </p>
         </div>
-        <div class="container-acerca">
-          <div class="profile">
-            <h3>Perfil</h3>
+        <div class="container-section">
+          <div class="perfil">
+            <h3 class="borde">Perfil</h3>
             <p>
               He desarrollado la capacidad de
               <strong>traducir los diseños</strong> a código rápidamente usando
@@ -84,16 +88,16 @@
             <p>
               Si estás buscando
               <strong>talento para incorporar a tu equipo</strong> contáctame
-              para trabajar juntos <a href="#modaltalento">aquí</a>
+              para trabajar juntos <a href="#modaltalento" class="mod">aquí</a>
             </p>
             <p>
               Si estás buscando crear una
               <strong>página web para tu negocio</strong> contáctame para
-              ayudarte a crear una <a href="#modalpweb">aquí</a>
+              ayudarte a crear una <a href="#modalpweb" class="mod">aquí</a>
             </p>
           </div>
           <div class="skill">
-            <h3>Habilidades</h3>
+            <h3 class="borde">Habilidades</h3>
             <div class="tool">
               <img src="./assets/images/iconos/html5.png" alt="html5" />
               <div class="info">
@@ -137,136 +141,25 @@
       </div>
     </section>
 
-    <!-- <section class="about-content" id="acerca">
-      <div class="titulo">
-        <h1>Acerca de mi</h1>
-        <p>
-          Conoce un poco más de mi trayectoria y las herramientas que empleo en
-          mis proyectos.
-        </p>
-      </div>
-      <div class="about">
-        <div class="profile">
-          <h3>Perfil</h3>
+    <section class="section-third">
+      <div class="cta-banner">
+        <div class="cta-content">
           <p>
-            He desarrollado la capacidad de
-            <strong>traducir los diseños</strong> a código rápidamente usando
-            las tecnologías adecuadas según los objetivos de cada proyecto.
+            <strong>Disponible para proyectos freelance</strong>
           </p>
+          <h1>¿Tienes algún proyecto en mente?</h1>
           <p>
-            Me encanta el trabajo remoto porque nos da libertad para organizar
-            mejor nuestro tiempo.
+            El primer paso para dar a conocer tu empresa en el mundo digital es
+            lanzar tu página web.
           </p>
-          <p>
-            Si estás buscando
-            <strong>talento para incorporar a tu equipo</strong> contáctame para
-            trabajar juntos <a href="#modaltalento">aquí</a>
-          </p>
-          <p>
-            Si estás buscando crear una
-            <strong>página web para tu negocio</strong> contáctame para ayudarte
-            a crear una <a href="#modalpweb">aquí</a>
-          </p>
-        </div>
-        <div class="skill">
-          <h3>Habilidades</h3>
-          <div class="tool">
-            <img src="./assets/images/iconos/html5.png" alt="html5" />
-            <div class="info">
-              <p>HTML</p>
-              <small>01 año de experiencia</small>
-            </div>
-          </div>
-          <div class="tool">
-            <img src="./assets/images/iconos/css3.png" alt="css3" />
-            <div class="info">
-              <p>CSS</p>
-              <small>01 año de experiencia</small>
-            </div>
-          </div>
-          <div class="tool">
-            <img src="./assets/images/iconos/sass.png" alt="sass" />
-            <div class="info">
-              <p>SASS</p>
-              <small>01 año de experiencia</small>
-            </div>
-          </div>
-          <div class="tool">
-            <img src="./assets/images/iconos/javascript.png" alt="javascript" />
-            <div class="info">
-              <p>JavaScript</p>
-              <small>01 año de experiencia</small>
-            </div>
-          </div>
-          <div class="tool">
-            <img src="./assets/images/iconos/github.png" alt="github" />
-            <div class="info">
-              <p>GitHub</p>
-              <small>01 año de experiencia</small>
-            </div>
+          <p>Contáctame para ayudarte a crear una.</p>
+          <div class="btn-container">
+            <button class="btn download">Descargar CV</button>
+            <button class="btn wantpage">Quiero una página</button>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="cta-banner">
-      <div class="cta-content">
-        <p><strong>Disponible para proyectos freelance</strong></p>
-        <h1>¿Tienes algún proyecto en mente?</h1>
-        <p>
-          El primer paso para dar a conocer tu empresa en el mundo digital es
-          lanzar tu página web.
-        </p>
-        <p>Contáctame para ayudarte a crear una.</p>
-        <div class="btn-content">
-          <button class="btn download">Descargar CV</button>
-          <button class="btn wantpage">Quiero una página</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio-content" id="portfolio">
-      <div class="titulo">
-        <h1>Mis trabajos recientes</h1>
-        <p>
-          Estos son los proyectos en los que he estado trabajando últimamente;
-          para conocer más proyectos envíame un
-          <a href="mailto:xantosromero@gmail.com">correo.</a>
-        </p>
-      </div>
-      <div class="container-project">
-        <div class="project">
-          <img src="./assets/images/project-1.jpg" alt="proyecto" />
-          <div class="info-project">
-            <h4>Website Stock Photos</h4>
-            <p>Página Web</p>
-            <i class="fa fa-html5"></i>
-            <i class="fa fa-css3"></i>
-          </div>
-        </div>
-        <div class="project">
-          <img src="./assets/images/project-2.jpg" alt="proyecto" />
-          <div class="info-project">
-            <h4>Huddle Landing Page</h4>
-            <p>Landing Page</p>
-            <i class="fa fa-html5"></i>
-            <i class="fa fa-css3"></i>
-          </div>
-        </div>
-        <div class="project">
-          <img src="./assets/images/project-3.jpg" alt="proyecto" />
-          <div class="info-project">
-            <h4>The Barber Shop</h4>
-            <p>Wordpress</p>
-            <i class="fa fa-html5"></i>
-            <i class="fa fa-css3"></i>
-          </div>
-        </div>
-      </div>
-      <div class="button">
-        <button class="btn load">Cargar Más</button>
-      </div>
-    </section> -->
 
     <script src="assets/js/main.js"></script>
   </body>

@@ -1,34 +1,22 @@
-// Estilos boton general
-btn {
-	background-color: #191A1D;
-	color: #f4f4f4;
-	padding: 16px 32px;
-	cursor: pointer;
-	border: none;
-    outline: none;
-    text-transform: uppercase;
-}
-
-decoration {
-    text-decoration: none;
-    color: #fff;
-}
-
-titulo {
+titulosection {
     text-align: center;
-    padding: 40px;
-    line-height: 25px;
+    line-height: 3em;
+    padding: 10px 50px 50px;
 }
 
-borderbottom {
-    padding-bottom: 5px;
-    border-bottom: 3px solid transparent;
+bordeinferior {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #000;
+    display: inline;
 }
 
-bannerimage {
-    position: relative;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .1s ease-in-out;
+boton {
+    padding: 14px 20px;
+    background: #fff;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 8px;
+    font-size: 14.2px;
 }

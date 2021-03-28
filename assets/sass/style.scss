@@ -1,23 +1,30 @@
-// IMPORTS
+// ========== IMPORTS =============
 @import "mixins";
 
 
-// =========COLORS============
-$white-color: #f4f4f4;
-$dark-color: #191A1D;
+// ========== COLORES =============
+$white-one: #FFF;
+$white-two: #F4F4F4;
+$white-third: #DDD;
+$dark-one: #000;
+$dark-two: #191A1D;
+$dark-third: #333;
 
 
-// =========GENERAL============
+// ========== CONF GENERALES =============
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+body {
+    background: $white-third;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
 }
 
+html {scroll-behavior: smooth;}
 h1 {font-size: 30px;}
 h2 {font-size: 24px;}
 h3 {font-size: 20px;}
@@ -27,65 +34,79 @@ h6 {font-size: 14px;}
 a {font-size: 18px;}
 p {font-size: 16px;}
 
-body {
-    background-color: #fff;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+.grid {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
+.section-title {
+    @extend titulosection;
+}
 
-// ========== HEADER ==========
-.navbar {
+.espacio {
+    line-height: 20px;
+}
+
+.borde {
+    @extend bordeinferior;
+}
+
+// Investigar su uso
+// section {
+//     position: relative;
+//     overflow: hidden;
+// }
+
+// ========== HEADER =============
+.header {
+    // background: #2c3e50;
+    background: $dark-third;
     position: fixed;
-    background-color: $dark-color;
-    color: $white-color;
     width: 100%;
-    height: 100px;
-    z-index: 1; // <-- averiguar
+    z-index: 1;
+}
 
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 100px;
 }
 
-// Estilos logo
-.logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-}
-
-.logo a img {
+.logo .img-logo {
     width: 60px;
 }
 
-// Estilos menu
-.menu {
+.navbar .menu {
+    width: 50%;
     display: flex;
-    justify-content: right;
-    margin-right: 10%;
-
-    a {
-        text-decoration: none;
-        color: $white-color;
-        margin-right: 70px;
-        padding-bottom: 5px;
-        border-bottom: 3.2px solid transparent;
-
-        &:hover {
-            border-bottom: 3.2px solid $white-color;
-            transition: all .3s ease-in-out;
-        }
-    }
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
-// ========== CONTENIDO PRINCIPAL ==========
+.menu a {
+    text-decoration: none;
+    color: $white-one;
+    padding-bottom: 4px;
+    border-bottom: 3.3px solid transparent;
+    &:hover{border-bottom: 3.3px solid $white-one;
+            transition: all .3s ease-in-out;}
+}
+
+// ========== CONTENIDO PRINCIPAL =============
+.section-first {
+    background: $dark-third;
+}
+
 .banner {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('../images/background.jpg'), $dark-color;
+    background: url('../images/bg-hero.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,275 +115,121 @@ body {
 .banner-content {
     width: 100%;
     height: 100%;
-    color: $white-color;
-    background-color: rgba(0, 0, 0, .7);
-    text-align: center;
-    line-height: 60px;
+    color: $white-one;
+    background-color: rgba(0, 0, 0, .8);
+    line-height: 5.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .avatar {
-    margin-top: 180px;
-    border: 3.5px solid $white-color;
+    margin-top: 9em;
+    border: 3.5px solid $white-one;
     border-radius: 50%;
 }
 
-h2, h3 {
-    letter-spacing: 0.5px;
-    word-spacing: 4.2px;
-}
-
-.icono-down {
+.icono {
     font-size: 1.7em;
-    margin-top: 2.5em;
-    color: #fff;
-}
-
-.icono-down i {
-    margin-top: 80px;
+    margin-top: 2.3em;
+    color: $white-one;
 }
 
 
-// ========== SECCIÓN ACERCA ==========
+// ========== SECCIÓN ACERCA =============
+.section-second {
+    padding: 50px 0;
+    background: $white-third;
+}
+
 .container-section {
-    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.title-section {
-    text-align: center;
-    line-height: 50px;
+.perfil {
+    width: 50%;
+    p{margin-top: 20px;}
+    .mod {
+        text-decoration: none;
+        color: dodgerblue;
+        &:hover{text-decoration: underline;}
+    }
 }
 
-    //========== MAIN ==========
-    // .main-content {
-    //     background-color: $primary-color;
+.skill {
+    width: 30%;
+    .tool{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-top: 20px;
+        .info{margin-left: 15px;}
+    }
+}
 
-    //     header {
-    //         background-color: $primary-color;
-    //         width: 100%;
-    //         height: 100px;
-    //         padding: 20px 0;
+// ========== SECCIÓN CALL TO ACTION =============
+.section-third {
+    background: $dark-third;
+}
 
-    //         display: flex;
-    //         flex-direction: row;
-    //         flex-wrap: wrap;
-    //         justify-content: space-around;
-    //         align-items: center;
+.cta-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('../images/bg-cta.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    //         .logo a {
-    //             @extend decoration;
-    //             font-size: 26px;
-    //         }
+.cta-content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    color: $white-one;
+    line-height: 80px;
 
-    //         .menu a {
-    //             @extend decoration;
-    //             @extend borderbottom;
-    //             margin-left: 70px;
-    //         }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{line-height: 24px;}
+}
 
-    //         .menu a:hover {
-    //             border-bottom: 3px solid $secondary-color;
-    //             transition: all .3s ease-in-out;
-    //         }
+.btn-container {
+    margin-top: 20px;
+}
 
-    //         .menu a.active {
-    //             border-bottom: 3px solid $secondary-color;
-    //         }
-    //     }
+.btn {
+    @extend boton;
+}
 
-    //     .banner {
-    //         @extend bannerimage;
-    //         height: calc(100vh - 100px);
-    //         background: url('../images/background.jpg'), $primary-color;
-    //         background-position: bottom center;
-    //     }
+.download {
+    border: 1.5px solid #fff;
+}
 
-    //     .banner-content {
-    //         width: 100%;
-    //         height: 100%;
-    //         color: $secondary-color;
-    //         background-color: rgba(0, 0, 0, .7);
-    //         text-align: center;
-    //         line-height: 60px;
+.download:hover {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
 
-    //         .avatar {
-    //             margin-top: 80px;
-    //             border: 3px solid $secondary-color;
-    //             border-radius: 50%;
-    //         }
+.wantpage {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
 
-    //         .icon-down {
-    //             color: $secondary-color;
-    //             font-size: 1.7em;
-    //             margin-top: 2.5em;
-    //             color: #fff;
+.wantpage:hover {
+    background: #fff;
+    color: #000;
+    border: 1.5px solid #fff;
+}
 
-    //             &:hover {
-    //                 font-size: 1.72em;
-    //                 color: rgba(255, 255, 255, .7);
-    //             }
-    //         }
-    //     }
-    // }
-
-    //========== ACERCA ==========
-    // .about-content {
-    //     background-color: $secondary-color;
-    //     padding: 40px;
-
-    //     .about {
-    //         background-color: $secondary-color;
-    //         display: flex;
-    //         flex-direction: row;
-    //         flex-wrap: wrap;
-    //         justify-content: space-between;
-    //         align-items: flex-start;
-    //         padding: 30px 120px;
-
-    //         .profile {
-    //             width: 500px;
-
-    //             h3 {
-    //                 @extend borderbottom;
-    //                 width: 55px;
-    //                 border-bottom: 3px solid $primary-color;
-    //             }
-
-    //             p {
-    //                 margin-top: 20px;
-    //                 line-height: 25px;
-    //             }
-
-    //             a {
-    //                 color: dodgerblue;
-    //                 text-decoration: none;
-    //                 font-weight: 500;
-    //                 &:hover {text-decoration: underline;
-    //                 font-weight: 600;}
-    //             }
-    //         }
-
-    //         .skill {
-    //             width: 300px;
-
-    //             h3 {
-    //                 @extend borderbottom;
-    //                 width: 70px;
-    //                 border-bottom: 3px solid $primary-color;
-    //             }
-
-    //             .tool {
-    //                 display: flex;
-    //                 justify-content: flex-start;
-    //                 align-items: flex-start;
-    //                 margin-top: 20px;
-
-    //                 .info {
-    //                     margin-left: 15px;
-
-    //                     p {
-    //                         font-size: 15px;
-    //                         font-weight: bold;
-    //                     }
-
-    //                     small {
-    //                         font-size: 14px;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-
-    // }
-
-    // //========== CALL TO ACTION ==========
-    // .cta-banner {
-    //     @extend bannerimage;
-    //     height: 400px;
-    //     background: url('../images/hero.jpg'), $primary-color;
-    //     background-position: center center;
-    //     text-align: center;
-
-    //     .cta-content {
-    //         width: 100%;
-    //         height: 100%;
-    //         color: $secondary-color;
-    //         background-color: rgba(0, 0, 0, .8);
-    //         line-height: 80px;
-    //         padding: 60px 0;
-    //         p{line-height: 25px;}
-
-    //         .btn-content {
-    //             margin-top: 30px;
-
-    //             .download {
-    //                 color: $primary-color;
-    //                 border: 1.5px solid transparent;
-    //                 &:hover{
-    //                     background-color: transparent;
-    //                     color: $secondary-color;
-    //                     border: 1.5px solid $secondary-color;
-    //                 }
-    //             }
-
-    //             .wantpage {
-    //                 color: $secondary-color;
-    //                 background-color: transparent;
-    //                 border: 1.5px solid $secondary-color;
-    //                 &:hover{
-    //                     background-color: $secondary-color;
-    //                     color: $primary-color;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-
-    // //========== PORTFOLIO ==========
-    // .portfolio-content {
-    //     padding: 40px;
-    //     background-color: $secondary-color;
-
-    //     a {
-    //         @extend decoration;
-    //         color: dodgerblue;
-    //         &:hover{text-decoration: underline;}
-    //     }
-
-    //     .container-project {
-    //         width: 100%;
-    //         display: grid;
-    //         grid-template-columns: repeat(3, 1fr);
-    //         gap: 20px;
-
-    //         .project {
-    //             width: 400px;
-    //             background-color: #fff;
-    //             border-radius: 5px;
-    //             box-shadow: 1px 1px 6px #d8d8d9;
-
-    //             img {
-    //                 background-size: cover;
-    //             }
-
-    //             .info-project {
-    //                 padding: 20px;
-    //             }
-    //         }
-    //     }
-
-    //     .button {
-    //         text-align: center;
-    //         margin-top: 40px;
-
-    //         .load {
-    //             background-color: transparent;
-    //             border: 1.5px solid $primary-color;
-    //             color: $primary-color;
-
-    //             &:hover {
-    //                 background-color: $primary-color;
-    //                 color: $secondary-color;
-    //             }
-    //         }
-    //     }
-    // }
+// ========== MEDIA QUERIES =============
