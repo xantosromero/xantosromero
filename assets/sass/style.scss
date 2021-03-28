@@ -52,6 +52,12 @@ p {font-size: 16px;}
     @extend bordeinferior;
 }
 
+.mod {
+    text-decoration: none;
+    color: dodgerblue;
+    &:hover{text-decoration: underline;}
+}
+
 // Investigar su uso
 // section {
 //     position: relative;
@@ -154,11 +160,6 @@ p {font-size: 16px;}
 .perfil {
     width: 50%;
     p{margin-top: 20px;}
-    .mod {
-        text-decoration: none;
-        color: dodgerblue;
-        &:hover{text-decoration: underline;}
-    }
 }
 
 .skill {
@@ -233,3 +234,17 @@ p {font-size: 16px;}
 }
 
 // ========== MEDIA QUERIES =============
+@media screen and (max-width: 375px) {
+    .container-section {
+        flex-direction: column;
+        .perfil{
+            width: 100%;
+            text-align: center;
+        }
+        .skill {
+            margin: 30px auto;
+        }
+
+        // Centrar el contenido de CTA
+    }
+}
