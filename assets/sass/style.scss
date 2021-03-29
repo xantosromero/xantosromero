@@ -46,6 +46,8 @@ p {font-size: 16px;}
 
 .espacio {
     line-height: 20px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .borde {
@@ -183,17 +185,20 @@ header .menu {
     background: $dark-third;
 }
 
-.cta-banner {
+.banner-two {
     position: relative;
     width: 100%;
     height: 400px;
-    background: url('../images/bg-cta.jpg');
-    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.cta-content {
+.bg-fondo-one {
+    background: url('../images/bg-cta.jpg');
+    background-position: top center;
+}
+
+.banner-content-two {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .8);
@@ -216,7 +221,8 @@ header .menu {
 }
 
 .btn-container {
-    margin-top: 20px;
+    margin-top: 30px;
+    text-align: center
 }
 
 .btn {
@@ -225,24 +231,22 @@ header .menu {
 
 .download {
     border: 1.5px solid $white-one;
-}
-
-.download:hover {
-    background: transparent;
-    color: $white-one;
-    border: 1.5px solid $white-one;
+    &:hover{
+        background: transparent;
+        color: $white-one;
+        border: 1.5px solid $white-one;
+    }
 }
 
 .wantpage {
     background: transparent;
     color: $white-one;
     border: 1.5px solid $white-one;
-}
-
-.wantpage:hover {
-    background: $white-one;
+    &:hover{
+        background: $white-one;
     color: $dark-one;
     border: 1.5px solid $white-one;
+    }
 }
 
 
@@ -250,6 +254,10 @@ header .menu {
 .section-fourth {
     padding: 50px 0;
     background: $white-third;
+}
+
+.section-title h1 {
+    line-height: normal;
 }
 
 .container-project {
@@ -286,7 +294,8 @@ header .menu {
         div p {
             font-size: 14px;
             color: $white-one;
-            @extend textop;
+            text-align: center;
+            line-height: 22px;
         }
 
         .gosite {
@@ -320,11 +329,105 @@ header .menu {
 .info-project {
     padding: 5px 10px;
     line-height: 30px;
+    h3{line-height: normal;}
     h3:hover{
         color: $dark-two;
         text-decoration: underline;
         cursor: pointer;
     }
+}
+
+.loadmore {
+    background: transparent;
+    color: $dark-one;
+    border: 1.5px solid $dark-one;
+    &:hover{
+        background: $dark-two;
+        color: $white-one;
+        border: 1.5px solid $dark-two;
+    }
+}
+
+// ========== SECCIÓN FRASE =============
+.bg-fondo-two {
+    background: url('../images/bg-msg.jpg');
+    background-position: center;
+    q {
+        font-style: italic;
+        word-spacing: 1.8px;
+    }
+}
+
+// ========== SECCIÓN CONTACTO =============
+.section-sixth {
+    padding: 50px 0;
+    background: $white-third;
+}
+
+.sendmail {
+    background: transparent;
+    color: $dark-one;
+    border: 1.5px solid $dark-one;
+    padding: 12px 40px;
+    &:hover{
+        background: $dark-two;
+        color: $white-one;
+        border: 1.5px solid $dark-two;
+    }
+}
+
+// ========== FOOTER =============
+.footer {
+    background: #2c3e50;
+    padding: 80px 50px 50px;
+}
+
+.contenido {
+    color: $white-third;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes {
+    margin-top: 50px;
+    a {
+        padding: 3px;
+    }
+    .icono-rrss {
+        width: 30px;
+    }
+}
+
+.correo {
+    margin-top: 50px;
+    a {
+        text-decoration: none;
+        color: $white-third;
+        font-size: 30px;
+    }
+}
+
+.menu-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    a {
+        text-decoration: none;
+        color: $white-third;
+        font-size: 18px;
+        padding: 10px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.copy {
+    margin-top: 60px;
 }
 
 // ========== MEDIA QUERIES =============
@@ -348,6 +451,10 @@ header .menu {
 
     .container-project {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-project, .img-project-grid {
+        height: 200px;
     }
 }
 
