@@ -10,13 +10,13 @@
 
 - 👷‍♂️ Trabajando en mi **portafolio**
 
-- 👨‍💻 Aprendiendo **HTML, CSS, SASS y JavaScript**
+- 👨‍💻 Aprendiendo **HTML, CSS y JavaScript**
 
 - 🤝 Buscando evolucionar como **Desarrollador Frontend**
 
-- 👨‍💻 Busca mis proyectos en **[codepen](https://codepen.io/your-work)**
+- 👨‍💻 Busca mis proyectos en: **[codepen](https://codepen.io/your-work)**
 
-- 📫 Contáctame a **xantosromero@gmail.com**
+- 📫 Contáctame a: **xantosromero@gmail.com**
 
 <h3 align="left">Puedes encontrarme en:</h3>
 <p align="left">
