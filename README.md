@@ -1,6 +1,6 @@
-<h1 align="center">Bienvenido, soy Santos Romero</h1>
+<h1 align="center">Hola, soy Santos Romero</h1>
 <h3 align="center">Desarrollador frontend</h3>
-<h3 align="center">Convertir los prototipos a código es una de las cosas que más disfruto hacer</h3>
+<h3 align="center">Convertir las ideas de las personas en páginas web o landing pages adaptables a dispositivos móviles.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xantosromero&label=Profile%20views&color=0e75b6&style=flat" alt="xantosromero" /> </p>
 
