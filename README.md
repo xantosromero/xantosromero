@@ -2,9 +2,13 @@
 <h3 align="center">Desarrollador Frontend</h3>
 <h3 align="center">Traducir los diseños en productos digitales que sean fáciles de usar en cualquier dispositivo.</h3>
 
+<!--
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xantosromero&label=Profile%20views&color=0e75b6&style=flat" alt="xantosromero" /> </p>
+-->
 
+<!--
 <p align="left"> <a href="https://twitter.com/xantosromero" target="blank"><img src="https://img.shields.io/twitter/follow/xantosromero?logo=twitter&style=for-the-badge" alt="xantosromero" /></a> </p>
+-->
 
 - 🔭 Estoy trabajando en mi portafolio [xantosromero.com](https://coming-soon-eta.vercel.app/)
 
