@@ -1,6 +1,6 @@
 <h1 align="center">Hola 👋, soy Santos Romero</h1>
 <h3 align="center">Desarrollador Frontend</h3>
-<h3 align="center">Traducir los diseños en productos digitales que sean fáciles de usar en cualquier dispositivo y generen un cambio fabuloso en los usuarios..</h3>
+<h3 align="center">Traducir los diseños en productos digitales que sean fáciles de usar en cualquier dispositivo y que generen un cambio fabuloso en los usuarios.</h3>
 
 <!--
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xantosromero&label=Profile%20views&color=0e75b6&style=flat" alt="xantosromero" /> </p>
