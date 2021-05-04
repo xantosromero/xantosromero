@@ -70,6 +70,10 @@ h6 {
     font-weight: 300;
 }
 
+.parrafo-info {
+    margin: 5px 0 20px;
+}
+
 a {
     @extend taglink;
     font-size: 1.125em; //18px
@@ -594,7 +598,7 @@ footer {
         flex-wrap: wrap;
 
         .social-bg {
-            padding: 5px 15px; //30px para desktop de pl y pr
+            padding: 10px 20px; //30px para desktop de pl y pr
             margin: 5px;
             border-radius: 5px;
             cursor: pointer;
