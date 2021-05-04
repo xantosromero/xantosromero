@@ -8,15 +8,17 @@
 $primary-color: #132f40;
 $secondary-color: #007af3;
 
-$bg-white-color: #fff;
-$bg-gray-color: #f2f2f2;
+// Fondo section
+$white-first-color: #fff;
+$white-second-color: #f2f2f2; //sombra box opinion
 
-$txt-black-color: #111;
-$txt-white-color: #f1f1f1;
+// Titulo y parrafo
+$black-first-color: #111;
+$black-second-color: #4d4d4d;
 
-// Sombra grid project
-$shadow-grid: #ccc;
-$hr-color: #ddd;
+// Boxshadow y bordes
+$gray-color: #ccc; // sombra grid y field contact
+$space-border-color: #ddd; // border box opinion
 
 
 // Reset
@@ -27,25 +29,50 @@ $hr-color: #ddd;
 }
 
 body {
+    background-color: $white-first-color;
     font-family: -apple-system, BlinkMacSystemFont, 'Poppins', Roboto, Helvetica, Arial, Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 100%;
-    color: $txt-black-color;
 }
 
 
 // Estilos globales
 h1 {
-    font-size: 1.875em;
+    font-size: 1.375; //22px
     font-weight: 700;
+}
+
+h2 {
+    font-size: 1.25em; //20px
+}
+
+h3 {
+    font-size: 1.125em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 0.875em;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 0.75em;
 }
 
 p {
     margin: 20px 0 10px;
-    font-size: 1.1rem;
+    font-size: 1rem; //16px
+    font-weight: 300;
 }
 
 a {
     @extend taglink;
+    font-size: 1.125em; //18px
 }
 
 section {
@@ -64,8 +91,8 @@ section {
 hr.space {
     margin-top: 1.25em; //1.875em para desktop
     border: none;
-    background-color: $hr-color;
-    color: $hr-color;
+    background-color: $space-border-color;
+    color: $space-border-color;
     height: 0.1px;
 }
 
@@ -76,7 +103,7 @@ hr.space {
     top: 0;
     width: 100%;
     background-color: $primary-color;
-    color: $txt-white-color;
+    color: $white-first-color;
     z-index: 10;
 }
 
@@ -88,14 +115,14 @@ hr.space {
     flex-direction: column;
 }
 
-// Logo
+// Logo proximamente
 .brand-logo {
     font-size: 1.5rem;
-    color: $txt-white-color;
+    color: $primary-color;
     margin: 1rem;
 
     span {
-        color: $secondary-color;
+        color: $primary-color
     }
 }
 
@@ -124,7 +151,7 @@ hr.space {
 .menu li a {
     display: block;
     text-decoration: none;
-    color: $txt-white-color;
+    color: $white-first-color;
 }
 
 .menu li a:hover {
@@ -196,17 +223,7 @@ hr.space {
     padding: 10px;
     position: relative;
     text-align: center;
-    color: $txt-white-color;
-
-    h3 {
-        font-size: 1.25em;
-        font-weight: 600;
-    }
-
-    p {
-        font-size: 1em;
-        font-weight: 300;
-    }
+    color: $white-first-color;
 }
 
 .corner {
@@ -214,7 +231,7 @@ hr.space {
     height: 10px;
     border-radius: 50%;
     border: 1.5px solid $secondary-color;
-    background-color: $txt-white-color;
+    background-color: $white-first-color;
     position: absolute;
 }
 
@@ -240,7 +257,7 @@ hr.space {
 
 // ========== SECTION ACERCA ==========
 .acerca {
-    background-color: $bg-white-color;
+    background-color: $white-first-color;
 }
 
 .perfil {
@@ -254,17 +271,17 @@ hr.space {
 .foto-img {
     border-radius: 50%;
     vertical-align: top;
-    border: 8px solid rgba(255, 255, 255, 0.5);
+    border: 8px solid $white-first-color;
 }
 
 strong {
     color: $secondary-color;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 // ========== SECTION PROYECTOS ==========
 .proyectos {
-    background-color: $bg-gray-color;
+    background-color: $white-second-color;
 }
 
 .grid-project {
@@ -275,12 +292,12 @@ strong {
 }
 
 .project {
-    background-color: $bg-white-color;
+    background-color: $white-first-color;
     border-radius: 10px;
     width: 100%;
     height: auto;
     overflow: hidden;
-    box-shadow: 6px 6px 50px $shadow-grid;
+    box-shadow: 6px 6px 50px $gray-color;
 }
 
 .project-bg {
@@ -301,7 +318,7 @@ strong {
         align-items: center;
 
         .info-title:hover {
-            color: $txt-black-color;
+            color: $black-first-color;
             text-decoration: underline;
         }
 
@@ -316,7 +333,7 @@ strong {
             cursor: pointer;
 
             &:hover {
-                color: $txt-black-color;
+                color: $black-first-color;
             }
         }
     }
@@ -327,9 +344,15 @@ strong {
         align-items: center;
         margin-top: 0.5em;
 
+        // Iconos color
+        i {
+            color: $black-second-color;
+        }
+
+        // Info color
         .link {
             margin-left: 1.25em;
-            color: $txt-black-color;
+            color: $black-second-color;
             &:hover {
                 color: $secondary-color;
                 text-decoration: underline;
@@ -360,7 +383,7 @@ strong {
 .cite {
     height: 100%;
     padding: 0.5em;
-    color: $txt-white-color;
+    color: $white-first-color;
     background-color: rgba(0, 0, 0, 0.85);
     display: flex;
     justify-content: center;
@@ -371,12 +394,12 @@ strong {
 
 // ========== SECTION TESTIMONIOS ==========
 .testimonials {
-    background-color: $bg-white-color;
+    background-color: $white-first-color;
 }
 
 // ========== SECTION CONTACTO ==========
 .contact {
-    background-color: $bg-gray-color;
+    background-color: $white-second-color;
 }
 
 
