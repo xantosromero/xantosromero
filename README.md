@@ -23,7 +23,7 @@
 
 - 📫 Contáctame a **xantosromero@gmail.com**
 
-- 📄 Descarga mi CV [xantosromero.com/resume](xantosromero.com/resume)
+- 📄 Descarga mi resume en [xantosromero.com/resume](xantosromero.com/resume)
 
 <!--
 <h3 align="left">Mis redes sociales:</h3>
