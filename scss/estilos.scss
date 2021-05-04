@@ -178,24 +178,35 @@ hr.space {
     background-color: rgba(19, 47, 64, 0.2);
 }
 
+// Board back
 #preview-shadow {
     background-color: $primary-color;
-    width: 260px;
-    height: 130px;
+    width: 280px;
+    height: 140px;
     padding-left: 30px;
     padding-top: 30px;
 }
 
+// Board Front
 #preview {
-    width: 250px;
-    height: 120px;
+    width: 270px;
+    height: 130px;
     border: 1.5px solid $secondary-color;
-    background-color: rgba(19, 47, 64, 0.8);
+    background-color: rgba(19, 47, 64, 0.5);
     padding: 10px;
     position: relative;
     text-align: center;
     color: $txt-white-color;
-    line-height: 30px;
+
+    h3 {
+        font-size: 1.25em;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1em;
+        font-weight: 300;
+    }
 }
 
 .corner {
