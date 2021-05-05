@@ -70,9 +70,10 @@ h6 {
     font-weight: 300;
 }
 
-.parrafo-info {
-    margin: 5px 0 20px;
-}
+// .parrafo-info {
+//     margin: 5px 0 20px;
+//     color: $black-second-color;
+// }
 
 a {
     @extend taglink;
@@ -93,7 +94,7 @@ section {
 }
 
 hr.space {
-    margin-top: 1.25em; //1.875em para desktop
+    margin-top: 2em; //1.875em para desktop
     border: none;
     background-color: $border-color;
     color: $border-color;
@@ -279,8 +280,8 @@ hr.space {
 }
 
 strong {
-    color: $secondary-color;
-    font-weight: 400;
+    color: $black-first-color;
+    font-weight: 500;
 }
 
 // ========== SECTION PROYECTOS ==========
@@ -436,17 +437,15 @@ strong {
         .head-title {
             margin-left: 20px;
 
-            .name-flag {
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
+            // .name-flag {
+            //     display: flz
                 
-                // Icono flag
-                .flag-img {
-                    margin-left: 10px;
-                    width: 30px;
-                }
-            }
+            //     // Icono flag
+            //     // .flag-img {
+            //     //     margin-left: 10px;
+            //     //     width: 30px;
+            //     // }
+            // }
 
             p {
                 margin: 0;
@@ -560,7 +559,7 @@ strong {
 }
 
 .contact-info .info-box .details h4 {
-    color: $black-first-color;
+    color: $primary-color;
     font-weight: 600;
 }
 
