@@ -22,9 +22,9 @@
 - 👨‍💻 Revisa otros proyectos en [codepen/proyectos](https://codepen.io/your-work)
 
 - 📫 Contáctame a **xantosromero@gmail.com**
-
-- 📄 Descarga mi resume en [xantosromero.com/resume](xantosromero.com/resume)
-
+<!--
+- 📄 Descarga mi hoja de vida en [xantosromero.com/resume](xantosromero.com/resume)
+-->
 <!--
 <h3 align="left">Mis redes sociales:</h3>
 <p align="left">
