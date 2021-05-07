@@ -19,7 +19,7 @@
 - 🌱 Estoy aprendiendo **HTML, CSS y JavaScript**
 -->
 
-- 👨‍💻 Revisa otros proyectos en [codepen/proyectos](https://codepen.io/your-work)
+- 👨‍💻 Revisa otros proyectos en [**codepen**](https://codepen.io/your-work)
 
 - 📫 Contáctame a **xantosromero@gmail.com**
 <!--
