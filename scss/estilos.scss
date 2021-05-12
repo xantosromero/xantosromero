@@ -144,6 +144,11 @@ hr.space {
     flex-direction: column;
 }
 
+// .menu .btn-resume {
+//     border: 1.5px solid #fff;
+//     border-radius: 10px;
+// }
+
 .menu ul li {
     list-style-type: none;
     text-align: center;
@@ -659,7 +664,7 @@ footer {
         display: none;
     }
 
-    .grid-project, .grid-opinion {
+    .grid-project {
         grid-template-columns: repeat(3, 1fr);
         gap: 1.875em;
     }
