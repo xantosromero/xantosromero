@@ -49,7 +49,7 @@ $border-color: #ddd; // border box opinion
 }
 
 body {
-    background-color: $white-first-color;
+    background-color: var(--white-first-color);
     font-family: -apple-system, BlinkMacSystemFont, 'Poppins', Roboto, Helvetica, Arial, Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 100%;
 }
@@ -104,69 +104,54 @@ section {
     overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
-hr.space {
-    margin-top: 2em; //1.875em para desktop
+// Linea separadora
+.line-border {
     border: none;
-    background-color: $border-color;
-    color: $border-color;
-    height: 0.1px;
-}
-
-
-// Navigation menu
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: $primary-color;
-    color: $white-first-color;
-    z-index: 10;
-}
-
-.navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
+    background-color: var(--line-border-color);
+    color: var(--line-border-color);
+    height: 1px;
 }
 
 // Logo proximamente
 .brand-logo {
-    font-size: 1.5rem;
-    color: $primary-color;
-    margin: 1rem;
-
-    span {
-        color: $primary-color
-    }
+    // visibility: hidden;
+    color: #fff;
 }
 
-// Menu mobile
+
+/* ========== HEADER ========== */
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 1em;
+    background-color: var(--primary-color);
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    // Aquí se agregarán los estilos para el menu desktop
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ========== MENU MOBILE ========== */
 .menu {
     display: none;
-    width: 100%;
 }
 
 .menu ul {
-    margin: 0;
-    padding: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-}
 
-// .menu .btn-resume {
-//     border: 1.5px solid #fff;
-//     border-radius: 10px;
-// }
+    background-color: thistle;
+}
 
 .menu ul li {
     list-style-type: none;
@@ -180,7 +165,7 @@ hr.space {
 .menu li a {
     display: block;
     text-decoration: none;
-    color: $white-first-color;
+    color: var(--white-first-color);
 }
 
 .menu li a:hover {
@@ -191,6 +176,7 @@ hr.space {
     display: flex;
 }
 
+
 /* Icono hamburguesa */
 .toggle {
     position: fixed;
@@ -198,7 +184,7 @@ hr.space {
     right: 0;
     width: 60px;
     height: 60px;
-    background: url('/img/iconos/menu.png');
+    background: url('/img/menu.png');
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -207,14 +193,14 @@ hr.space {
 
 // Icono close
 .toggle.active {
-    background: url('/img/iconos/close.png');
+    background: url('/img/close.png');
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
-/* Fondo Hero */
+/* ========== CONTENT HERO ========== */
 .bg-image {
     width: 100%;
     height: 60vh;
@@ -671,21 +657,14 @@ footer {
 }
 
 
-//========== MEDIA QUERIES ==========
+/* ========== MEDIA QUERIES ========== */
 @media only screen and (min-width: 1080px) {
-
-    // Ocultar icono hamburguesa
+    // Ocultar icono
     .toggle {
         display: none;
     }
 
-    .grid-project {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.875em;
-    }
-
-    /* ===== CONTACTO ===== */
-    .contact-box {
-        flex-direction: row;
+    .menu {
+        display: flex;
     }
 }
