@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,12 +19,13 @@
 
     <title>Frontend Developer</title>
 </head>
+
 <body>
 
     <!-- ========== HEADER ========== -->
-    <header class="header">
-        <div class="navbar">
-            <a href="#" class="brand-logo">Frontend <span>Club</span></a>
+    <div class="navbar">
+        <header class="header grid">
+            <div><a href="#" class="brand-logo">Frontend <span>Club</span></a></div>
             <div class="toggle"></div>
 
             <nav class="menu">
@@ -34,391 +36,158 @@
                     <li class="btn-resume"><a href="./file/resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-
-    <!-- ========== BACKGROUND HERO ========== -->
-    <div class="bg-image">
-        <div class="board">
-            <div id="preview-shadow">
-                <div id="preview">
-                    <div id="corner-tl" class="corner"></div>
-                    <div id="corner-tr" class="corner"></div>
-                    <h3>Santos Romero</h3>
-                    <p class="parrafo">Desarrollador Frontend</p>
-                    <div id="corner-br" class="corner"></div>
-                    <div id="corner-bl" class="corner"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ========== SECCION ACERCA ========== -->
-    <section class="acerca" id="acerca">
-        <div class="perfil">
-            <div class="foto">
-                <img src="./img/people/foto.jpg" alt="santos romero" class="foto-img">
-            </div>
-        </div>
-        <div class="section-text">
-            <h1 class="titulo">Acerca de mi</h1>
-            <p class="parrafo"><strong>traducir los diseños</strong> en productos digitales que sean fáciles de usar en cualquier dispositivo, y que generen un impacto positivo en la vida de los usuarios.</p>
-        </div>
-    </section>
-
-
-    <!-- ========== SECCION PROYECTOS ========== -->
-    <section class="proyectos" id="proyectos">
-        <div class="section-text">
-            <h1 class="titulo">Proyectos</h1>
-            <p class="parrafo">Estos son los proyectos en los que he estado trabajado últimamente.</p>
-        </div>
-
-        <!-- Contenedor de proyectos -->
-        <div class="grid-project">
-
-            <!-- Proyecto 1 -->
-            <article class="project">
-                <div class="project-bg">
-                    <img src="img/projects/project_1.jpg" class="item-img">
-                </div>
-                <div class="project-info">
-                    <div class="info">
-                        <a href="#">
-                            <h3 class="info-title">Profile Card</h3>
-                        </a>
-                        <a class="link-icon" href="#"><i class="fa fa-external-link"></i></a>
-                    </div>
-                    <div>
-                        <p class="parrafo">Componente de tarjeta de perfil para diseñadores web..</p>
-                    </div>
-                    <hr class="space">
-                    <div class="detail-info">
-                        <div>
-                            <i class="fa fa-github"></i>
-                            <small><a href="#" class="link">Código fuente</a></small>
-                        </div>
-                        <div>
-                            <small><a href="#" class="link right">Diseño</a></small>
-                            <i class="fa fa-palette"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Proyecto 2 -->
-            <article class="project">
-                <div class="project-bg">
-                    <img src="img/projects/project_2.jpg" class="item-img">
-                </div>
-                <div class="project-info">
-                    <div class="info">
-                        <a href="#">
-                            <h3 class="info-title">Single Price</h3>
-                        </a>
-                        <a class="link-icon" href="#"><i class="fa fa-external-link"></i></a>
-                    </div>
-                    <div>
-                        <p class="parrafo">Componente se encuentra en fase de codificación.</p>
-                    </div>
-                    <hr class="space">
-                    <div class="detail-info">
-                        <div>
-                            <i class="fa fa-github"></i>
-                            <small><a href="#" class="link">Código fuente</a></small>
-                        </div>
-                        <div>
-                            <small><a href="#" class="link right">Diseño</a></small>
-                            <i class="fa fa-palette"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-
-            <!-- Proyecto 3 -->
-            <article class="project">
-                <div class="project-bg">
-                    <img src="/img/projects/project_3.jpg" class="item-img">
-                </div>
-                <div class="project-info">
-                    <div class="info">
-                        <a href="#" >
-                            <h3 class="info-title">Huddle</h3>
-                        </a>
-                        <a class="link-icon" href="#"><i class="fa fa-external-link"></i></a>
-                    </div>
-                    <div>
-                        <p class="parrafo">Landing page se encuentra en fase de codificación.</p>
-                    </div>
-                    <hr class="space">
-                    <div class="detail-info">
-                        <div>
-                            <i class="fa fa-github"></i>
-                            <small><a href="#" class="link">Código fuente</a></small>
-                        </div>
-                        <div>
-                            <small><a href="#" class="link right">Diseño</a></small>
-                            <i class="fa fa-palette"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Proyecto 4 -->
-            <article class="project">
-                <div class="project-bg">
-                    <img src="/img/projects/project_4.jpg" class="item-img">
-                </div>
-                <div class="project-info">
-                    <div class="info">
-                        <a href="#">
-                            <h3 class="info-title">Four Features Cards</h3>
-                        </a>
-                        <a class="link-icon" href="#"><i class="fa fa-external-link" ></i></a>
-                    </div>
-                    <div>
-                        <p class="parrafo">Componentes se encuentran en fase de codificación.</p>
-                    </div>
-                    <hr class="space">
-                    <div class="detail-info">
-                        <div>
-                            <i class="fa fa-github"></i>
-                            <small><a href="#" class="link">Código fuente</a></small>
-                        </div>
-                        <div>
-                            <small><a href="#" class="link right">Diseño</a></small>
-                            <i class="fa fa-palette"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Proyecto 5 -->
-            <article class="project">
-                <div class="project-bg">
-                    <img src="/img/projects/project_5.jpg" class="item-img">
-                </div>
-                <div class="project-info">
-                    <div class="info">
-                        <a href="#">
-                            <h3 class="info-title">Social Proof</h3>
-                        </a>
-                        <a class="link-icon" href="#"><i class="fa fa-external-link"></i></a>
-                    </div>
-                    <div>
-                        <p class="parrafo">Componente se encuentra en fase de codificación.</p>
-                    </div>
-                    <hr class="space">
-                    <div class="detail-info">
-                        <div>
-                            <i class="fa fa-github"></i>
-                            <small><a href="#" class="link">Código fuente</a></small>
-                        </div>
-                        <div>
-                            <small><a href="#" class="link right">Diseño</a></small>
-                            <i class="fa fa-palette"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Proyecto 6 -->
-            <article class="project">
-                <div class="project-bg">
-                    <img src="/img/projects/project_6.jpg" class="item-img">
-                </div>
-                <div class="project-info">
-                    <div class="info">
-                        <a href="#">
-                            <h3 class="info-title">Money</h3>
-                        </a>
-                        <a class="link-icon" href="#"><i class="fa fa-external-link"></i></a>
-                    </div>
-                    <div>
-                        <p class="parrafo">Si eres diseñador UI, puedes <strong>colaborar</strong> manipulando el diseño.</p>
-                    </div>
-                    <hr class="space">
-                    <div class="detail-info">
-                        <div style="visibility: hidden;">
-                            <i class="fa fa-github" ></i>
-                            <small><a href="#" class="link">Código fuente</a></small>
-                        </div>
-                        <div>
-                            <small><a href="#" class="link right">Colaborar</a></small>
-                            <i class="fa fa-palette"></i>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </section>
-
-
-    <!-- ========== SECCION CITA ========== -->
-    <div class="banner-cite">
-        <div class="cite">
-            <p><cite><q>Desde que no era nadie ni tenía apenas nada, soñaba con crecer.</q></cite></p>
-            <h4>- Amancio Ortega -</h4>
-        </div>
+        </header>
     </div>
 
 
-    <!-- ========== SECCION OPINION ========== -->
-    <section class="opinion" style="display: none;">
-        <div class="section-text">
-            <h1 class="titulo">Opiniones</h1>
-            <p class="parrafo">En mi trayectoria laboral he trabajado con seres humanos maravillosos, profesionales y divertidos.</p>
+    <!-- ========== MAIN ========== -->
+    <main>
+        <section class="hero">
+            <div class="content-hero">
+                <div class="board">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h2 class="nombre">Santos Romero</h2>
+                            <p>Desarrollador Frontend</p>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========== ACERCA ========== -->
+        <section class="about" id="acerca">
+            <div class="about-section grid">
+                <div class="profile">
+                    <div class="photo">
+                        <img src="./img/foto.jpg" alt="santos romero" class="photo-img">
+                    </div>
+                </div>
+                <div class="section-text">
+                    <h1 class="title">Acerca de mi</h1>
+                    <p class="text">Convertir y <strong>traducir los diseños</strong> en productos digitales que sean fáciles de usar en cualquier dispositivo y que produzcan un cambio positivo en la vida de los usuarios.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ========== PROYECTOS ========== -->
+    <section class="project" id="proyectos">
+        <div class="project-section grid">
+            <div class="section-text">
+                <h1 class="title">Proyectos</h1>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore atque tempora quis, at eum suscipit adipisci, explicabo dolor provident quo, illo quae ab debitis fugit voluptas numquam optio doloremque ullam.</p>
+            </div>
         </div>
-        <div class="grid-opinion">
-            <article class="card-opinion">
-                <div class="head">
-                    <div>
-                        <img src="/img/user-img/foto-p-1.jpg" class="user-img" alt="usuario">
+        <!-- Projects container -->
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-box">
+                <div class="head-project">
+                    <img src="./img/projects/project_1.png" alt="project" class="project-img">
+                </div>
+                <div class="info-project">
+                    <div class="title-project">
+                        <h3>Travel World</h3>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
                     </div>
-                    <div class="head-title">
-                        <div class="name-flag">
-                            <h3>Juan Tello</h3>
-                            <!-- <img src="/img/iconos/pe.jpg" alt="peru" class="flag-img"> -->
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusantium ipsum ea? Quasi, eveniet rerum?</p>
+                    </div>
+                    <hr class="line-border">
+                    <div class="details">
+                        <div class="details-1">
+                            <a href="#"><i class="fa fa-github"></i></a>
+                            <small>Código fuente</small>
                         </div>
-                        <p>Jefe de Aulas y Laboratorios en Cibertec.</p>
+                        <div class="details-2">
+                            <small>Tutorial</small>
+                            <a href="#"><i class="fa fa-palette"></i></a>
+                        </div>
                     </div>
                 </div>
-                <blockquote><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati maiores sequi dicta tempora totam aliquid libero quos laudantium facere sunt quisquam, vero temporibus cupiditate voluptatibus eos a quas quidem!</q></blockquote>
-            </article>
-            <article class="card-opinion">
-                <div class="head">
-                    <div>
-                        <img src="/img/user-img/foto-p-2.jpg" class="user-img" alt="usuario">
-                    </div>
-                    <div class="head-title">
-                        <div class="name-flag">
-                            <h3>Michael Loja</h3>
-                            <!-- <img src="/img/iconos/pe.jpg" alt="peru" class="flag-img"> -->
-                        </div>
-                        <p>Asistente de Aulas y Laboratorios.</p>
-                    </div>
-                </div>
-                <blockquote><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati maiores sequi dicta tempora totam aliquid libero quos laudantium facere sunt quisquam, vero temporibus cupiditate voluptatibus eos a quas quidem!</q></blockquote>
-            </article>
-            <article class="card-opinion">
-                <div class="head">
-                    <div>
-                        <img src="/img/user-img/foto-p-3.jpg" class="user-img" alt="usuario">
-                    </div>
-                    <div class="head-title">
-                        <div class="name-flag">
-                            <h3>Tatiana Sócola</h3>
-                            <!-- <img src="/img/iconos/pe.jpg" alt="peru" class="flag-img"> -->
-                        </div>
-                        <p>Jefa de proyectos en Falabella.</p>
-                    </div>
-                </div>
-                <blockquote><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati maiores sequi dicta tempora totam aliquid libero quos laudantium facere sunt quisquam, vero temporibus cupiditate voluptatibus eos a quas quidem!</q></blockquote>
-            </article>
-            <article class="card-opinion">
-                <div class="head">
-                    <div>
-                        <img src="/img/user-img/foto-p-4.jpg" class="user-img" alt="usuario">
-                    </div>
-                    <div class="head-title">
-                        <div class="name-flag">
-                            <h3>Cesar Trujillo</h3>
-                            <!-- <img src="/img/iconos/pe.jpg" alt="peru" class="flag-img"> -->
-                        </div>
-                        <p>Analista de datos en Falabella.</p>
-                    </div>
-                </div>
-                <blockquote><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati maiores sequi dicta tempora totam aliquid libero quos laudantium facere sunt quisquam, vero temporibus cupiditate voluptatibus eos a quas quidem!</q></blockquote>
-            </article>
-            <article class="card-opinion">
-                <div class="head">
-                    <div>
-                        <img src="/img/user-img/foto-p-5.jpg" class="user-img" alt="usuario">
-                    </div>
-                    <div class="head-title">
-                        <div class="name-flag">
-                            <h3>Carlos Shepherd</h3>
-                            <!-- <img src="/img/iconos/pe.jpg" alt="peru" class="flag-img"> -->
-                        </div>
-                        <p>Jefe de Implementaciones en Alignet.</p>
-                    </div>
-                </div>
-                <blockquote><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati maiores sequi dicta tempora totam aliquid libero quos laudantium facere sunt quisquam, vero temporibus cupiditate voluptatibus eos a quas quidem!</q></blockquote>
-            </article>
-            <article class="card-opinion">
-                <div class="head">
-                    <div>
-                        <img src="/img/user-img/foto-p-6.jpg" class="user-img" alt="usuario">
-                    </div>
-                    <div class="head-title">
-                        <div class="name-flag">
-                            <h3>Armando Haro</h3>
-                            <!-- <img src="/img/iconos/pe.jpg" alt="peru" class="flag-img"> -->
-                        </div>
-                        <p>Analista programador en Alignet.</p>
-                    </div>
-                </div>
-                <blockquote><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae obcaecati maiores sequi dicta tempora totam aliquid libero quos laudantium facere sunt quisquam, vero temporibus cupiditate voluptatibus eos a quas quidem!</q></blockquote>
-            </article>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- ========== CITA ========== -->
+    <section class="cite">
+        <div class="cite-content">
+            <div class="message grid">
+                <cite><q>Desde que no era nadie ni tenía apenas nada, soñaba con crecer.</q></cite>
+                <h4>- Amancio Ortega -</h4>
+            </div>
         </div>
     </section>
     
 
     <!-- ========== SECCION CONTACTO ========== -->
-    <section class="contact" id="contacto">
-        <div class="section-text">
-            <h1 class="titulo">Contacto</h1>
-            <p class="parrafo">Gracias por tomarte el tiempo de contactarme, será un placer conocerte para intercambiar conocimientos o trabajar juntos creando un producto digital.</p>
-        </div>
-        <div class="contact-box">
-            <div class="contact-form">
-                <form action="#">
-                    <div class="row">
-                        <div class="input50">
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombres">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input50">
-                            <input type="email" name="correo" id="correo" placeholder="Correo" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input100">
-                            <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input100">
-                            <input type="submit" value="Enviar">
-                        </div>
-                    </div>
-                </form>
+    <section class="contat-section" id="contacto">
+        <div class="grid">
+            <div class="section-text">
+                <h1 class="title">Contacto</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi laborum quaerat recusandae possimus omnis odio blanditiis incidunt ullam! Pariatur, iusto nesciunt. Tempore voluptatibus accusamus voluptatum dolore porro quia, explicabo provident.</p>
             </div>
-            <div class="contact-info">
-                <div class="info-box">
-                    <img src="/img/icons/address.png" alt="" class="contact-icon">
-                    <div class="details">
-                        <h4>Dirección</h4>
-                        <p>Medellín, Colombia</p>
-                    </div>
+
+            <div class="contact-box">
+                <!-- Formulario de contacto -->
+                <div class="contact-form">
+                    <form action="#">
+                        <div class="row">
+                            <div class="input50">
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombres">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input50">
+                                <input type="email" name="correo" id="correo" placeholder="Correo" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input100">
+                                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="info-box">
-                    <img src="/img/icons/at-sign.png" alt="" class="contact-icon">
-                    <div class="details">
-                        <h4>Correo</h4>
-                        <a href="mailto:xantosromero@gmail.com">xantosromero@gmail.com</a>
-                        <a href="mailto:xantosromero@hotmail.com">xantosromero@hotmail.com</a>
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <div class="info-box">
+                        <img src="/img/address.png" alt="" class="contact-icon">
+                        <div class="details">
+                            <h4>Dirección</h4>
+                            <p>Medellín, Colombia</p>
+                        </div>
                     </div>
-                </div>
-                <div class="info-box">
-                    <img src="/img/icons/call.png" alt="" class="contact-icon">
-                    <div class="details">
-                        <h4>Celular</h4>
-                        <a href="tel:+573207481920">(+57) 320 748 1920</a><br>
-                        <a href="tel:+573218299271">(+57) 321 829 9271</a><br>
-                        <a href="tel:+51956046533">(+51) 956 046 533</a>
+                    <div class="info-box">
+                        <img src="/img/at-sign.png" alt="" class="contact-icon">
+                        <div class="details">
+                            <h4>Correo</h4>
+                            <a href="mailto:xantosromero@gmail.com">xantosromero@gmail.com</a>
+                            <a href="mailto:xantosromero@hotmail.com">xantosromero@hotmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <img src="/img/call.png" alt="" class="contact-icon">
+                        <div class="details">
+                            <h4>Celular</h4>
+                            <a href="tel:+573207481920">(+57) 320 748 1920</a><br>
+                            <a href="tel:+573218299271">(+57) 321 829 9271</a><br>
+                            <a href="tel:+51956046533">(+51) 956 046 533</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -428,42 +197,44 @@
 
     <!-- ========== SECCION FOOTER ========== -->
     <section class="footer">
-        <footer>
-            <div class="social-media">
-                <div class="social-bg linkedin">
-                    <a href="https://www.linkedin.com/in/xantosromero">
-                        <i class="fa fa-linkedin fa-2x"></i>
-                    </a>
+        <div class="grid">
+            <footer>
+                <div class="social-media">
+                    <div class="social-box linkedin">
+                        <a href="https://www.linkedin.com/in/xantosromero">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="social-box twitter">
+                        <a href="https://twitter.com/xantosromero">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="social-box github">
+                        <a href="https://github.com/xantosromero">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="social-box codepen">
+                        <a href="https://codepen.io/xantosromero">
+                            <i class="fa fa-codepen fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="social-box facebook">
+                        <a href="https://www.facebook.com/xantosromero">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="social-bg twitter">
-                    <a href="https://twitter.com/xantosromero">
-                        <i class="fa fa-twitter fa-2x"></i>
-                    </a>
+                <div class="copyright">
+                    <p>Hecho con <span>&#128153;</span> y <span>&#127823;</span> en Latinoamérica.</p>
                 </div>
-                <div class="social-bg github">
-                    <a href="https://github.com/xantosromero">
-                        <i class="fa fa-github fa-2x"></i>
-                    </a>
-                </div>
-                <div class="social-bg codepen">
-                    <a href="https://codepen.io/xantosromero">
-                        <i class="fa fa-codepen fa-2x"></i>
-                    </a>
-                </div>
-                <div class="social-bg facebook">
-                    <a href="https://www.facebook.com/xantosromero">
-                        <i class="fa fa-facebook fa-2x"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="creditos">
-                <!-- corazon rojo -->
-                <!-- <span>&#129505;</span> -->
-                <p>Hecho con <span>&#128153;</span> y <span>&#127823;</span> en Latinoamérica.</p>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </section>
+
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
