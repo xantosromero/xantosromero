@@ -34,10 +34,10 @@ $border-color: #ddd; // border box opinion
 
     --black-first-color: #111;
     --black-second-color: #0a0a23;
-    
+
     --gray-first-color: #4d4d4d;
     --gray-second-color: #ccc;
-    
+
     --line-border-color: #ddd;
 }
 
@@ -45,6 +45,8 @@ $border-color: #ddd; // border box opinion
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -59,20 +61,24 @@ body {
 // Responsive
 .grid {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
+    overflow: hidden;
 }
 
 // Titulos
 h1 {
     font-size: 30px;
 }
+
 h2 {
     font-size: 24px;
 }
+
 h3 {
     font-size: 20px;
 }
+
 h4 {
     font-size: 18px;
 }
@@ -100,8 +106,7 @@ a {
 
 // Section
 section {
-    padding: 30px 0px 30px;
-    overflow: hidden;
+    padding: 30px 0px;
 }
 
 // Linea separadora
@@ -126,6 +131,7 @@ section {
     height: 60px;
     padding: 1em;
     background-color: var(--primary-color);
+    z-index: 10;
 }
 
 .header {
@@ -144,13 +150,15 @@ section {
 }
 
 .menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    background-color: thistle;
+    background-color: var(--primary-color);
 }
 
 .menu ul li {
@@ -159,24 +167,19 @@ section {
 }
 
 .menu li a {
-    padding: 0.5rem 1rem;
-}
-
-.menu li a {
     display: block;
-    text-decoration: none;
-    color: var(--white-first-color);
-}
+    color: var(--gray-second-color);
 
-.menu li a:hover {
-    background-color: rgba(156, 156, 156, 0.2);
+    &:hover {
+        color: var(--white-first-color);
+    }
 }
 
 .menu.active {
     display: flex;
 }
 
-/* Icono hamburguesa */
+// Icono hamburguesa
 .toggle {
     position: fixed;
     top: 0;
@@ -199,29 +202,34 @@ section {
 }
 
 
-/* ========== CONTENT HERO ========== */
-.bg-image {
+/* ========== CONTENIDO HERO ========== */
+.hero {
     width: 100%;
-    height: 60vh;
+    height: calc(80vh - 60px);
     background-image: url('/img/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
-/* Board table */
+.hero .content-hero {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+// Board table
 .board {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(19, 47, 64, 0.2);
 }
 
 // Board back
 #preview-shadow {
-    background-color: $primary-color;
+    background-color: var(--primary-color);
     width: 280px;
     height: 140px;
     padding-left: 30px;
@@ -232,20 +240,30 @@ section {
 #preview {
     width: 270px;
     height: 130px;
-    border: 1.5px solid $secondary-color;
-    background-color: rgba(19, 47, 64, 0.5);
+    border: 1.5px solid var(--secondary-color);
+    background-color: rgba(19, 47, 64, 0.6);
     padding: 15px;
     position: relative;
     text-align: center;
-    color: $white-first-color;
+    color: var(--white-first-color);
+}
+
+// Estilos nombre y rol
+.name {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.role {
+    font-size: 16px;
 }
 
 .corner {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 1.5px solid $secondary-color;
-    background-color: $white-first-color;
+    border: 1.5px solid var(--secondary-color);
+    background-color: var(--white-first-color);
     position: absolute;
 }
 
@@ -269,32 +287,30 @@ section {
     left: -5px;
 }
 
-// ========== SECTION ACERCA ==========
-.acerca {
-    background-color: $white-first-color;
+
+/* ========== SECCIÓN ACERCA ========== */
+.about {
+    background-color: var(--white-first-color);
+    padding: 0;
+
+    .about-section {
+
+        .profile {
+            text-align: center;
+
+            .photo-img {
+                width: 140px;
+                border-radius: 50%;
+                margin-top: -80px;
+                vertical-align: top;
+                border: 8px solid var(--white-first-color);
+            }
+        }
+    }
 }
 
-.perfil {
-    text-align: center;
-}
 
-.foto {
-    margin-top: -110px;
-}
-
-.foto-img {
-    width: 140px;
-    border-radius: 50%;
-    vertical-align: top;
-    border: 8px solid $white-first-color;
-}
-
-strong {
-    color: $black-first-color;
-    font-weight: 500;
-}
-
-// ========== SECTION PROYECTOS ==========
+/* ========== SECCIÓN PROYECTOS ========== */
 .proyectos {
     background-color: $white-second-color;
 }
@@ -370,6 +386,7 @@ strong {
         .link {
             margin-left: 1.25em;
             color: $black-second-color;
+
             &:hover {
                 color: $secondary-color;
                 text-decoration: underline;
@@ -378,6 +395,7 @@ strong {
 
         .right {
             margin-right: 1.25em;
+
             &:hover {
                 color: $secondary-color;
                 text-decoration: underline;
@@ -449,7 +467,7 @@ strong {
 
             // .name-flag {
             //     display: flz
-                
+
             //     // Icono flag
             //     // .flag-img {
             //     //     margin-left: 10px;
@@ -500,7 +518,8 @@ strong {
             display: flex;
             flex-direction: column;
 
-            .input50, .input100 {
+            .input50,
+            .input100 {
                 width: 100%;
             }
         }
@@ -615,34 +634,62 @@ footer {
 
         .linkedin {
             background-color: #0077b5;
-            a {color: $white-first-color;}
+
+            a {
+                color: $white-first-color;
+            }
+
             &:hover {
                 transform: scale(0.95);
             }
         }
-        
+
         .twitter {
             background-color: #1da1f2;
-            a {color: $white-first-color;}
-            &:hover {transform: scale(0.95);}
+
+            a {
+                color: $white-first-color;
+            }
+
+            &:hover {
+                transform: scale(0.95);
+            }
         }
 
         .github {
             background-color: #333;
-            a {color: $white-first-color;}
-            &:hover {transform: scale(0.95);}
+
+            a {
+                color: $white-first-color;
+            }
+
+            &:hover {
+                transform: scale(0.95);
+            }
         }
 
         .codepen {
             background-color: #313030;
-            a {color: $white-first-color;}
-            &:hover {transform: scale(0.95);}
+
+            a {
+                color: $white-first-color;
+            }
+
+            &:hover {
+                transform: scale(0.95);
+            }
         }
 
         .facebook {
             background-color: #3B5998;
-            a {color: $white-first-color;}
-            &:hover {transform: scale(0.95);}
+
+            a {
+                color: $white-first-color;
+            }
+
+            &:hover {
+                transform: scale(0.95);
+            }
         }
     }
 
@@ -658,6 +705,7 @@ footer {
 
 /* ========== MEDIA QUERIES ========== */
 @media only screen and (min-width: 1080px) {
+
     // Ocultar icono
     .toggle {
         display: none;
