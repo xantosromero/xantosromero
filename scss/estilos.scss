@@ -92,7 +92,8 @@ section {
 
 // Logo proximamente
 .brand-logo {
-    // visibility: hidden;
+    visibility: hidden;
+    font-size: 1.3em;
     color: #fff;
 }
 
@@ -124,7 +125,7 @@ section {
 
 .menu ul {
     position: absolute;
-    top: 60px;
+    top: calc(10vh - 20px);
     left: 0;
     width: 100%;
     display: flex;
@@ -137,10 +138,29 @@ section {
 .menu ul li {
     list-style-type: none;
     text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.menu ul li.btn-resume a {
+    color: var(--white-first-color);
+    border: 2px solid var(--white-first-color);
+    font-weight: bold;
+    border-radius: 5em;
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+
+    &:hover {
+        background: var(--white-first-color);
+        color: var(--primary-color);
+    }
 }
 
 .menu li a {
     display: block;
+    font-weight: bold;
+    font-size: 18px;
     color: var(--gray-second-color);
 
     &:hover {
