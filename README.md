@@ -1,13 +1,9 @@
-<h2>Hola, soy Santos Romero! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<h2>Hola <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">, soy Santos Romero! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-<p><em>Frontend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>Desarrollador Frontend <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
-![Twitter Follow](https://img.shields.io/twitter/follow/xantosromero?label=Follow)
-[![Linkedin: thaianebraga](https://img.shields.io/badge/-xantosromero-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/xantosromero/)](https://www.linkedin.com/in/xantosromero/)
-![GitHub followers](https://img.shields.io/github/followers/xantosromero?label=Follow&style=social)
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Un poco más sobre mí...  
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Conoce un poco más sobre mí...  
 
 ```html
 <h1>Codificar y traducir las ideas de las personas en productos digitales</h1>
@@ -16,9 +12,14 @@
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Me encanta conectar con diferentes personas</b> alrededor del mundo, si quieres puedes decir<b> hola, estaré feliz de conocerte.</b> 😊</em>
-
-<h2>Herramientas</h2>
-
+<br>.
+## 💻 Proyectos
+* [Stats Preview Card Component](https://github.com/xantosromero/stats-preview-card-component)
+* [Single Price Grid Component](https://single-price-grid-component-eta-vert.vercel.app/)
+* [Profile Card Component](https://profile-card-component-self-ten.vercel.app/)
+* [Portfolio](https://xantosromero.vercel.app/)
+<br>.
+## 🛠️ Herramientas
 <table>
   <tbody>
     <tr valign="top">
@@ -59,3 +60,5 @@
     </tr>
   </tbody>
 </table>
+
+
