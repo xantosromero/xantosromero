@@ -6,9 +6,12 @@
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Conoce un poco más sobre mí...  
 
 ```html
-<h1>Codificar y traducir las ideas de las personas en productos digitales</h1>
-<h2>que sean fáciles de usar en cualquier dispositivo</h2>
-<h3>y que mejoren la vida de los usuarios</h3>
+<h1>Ser Desarrollador Frontend no solo significa seguir una ruta definida</h1>
+<h2>codificando el diseño, estructurando un gran contenido HTML,</h2>
+<h3>CSS, Preprocesadores o JavaScript, sino,</h3>
+<h4>siempre buscar las formas de mejorar los procesos de desarrollo,</h4>
+<h5>corrigiendo errores, iterando y buscando solución a los problemas,</h5>
+<h6>para entregar mejores experiencias a los usuarios.</h6>
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Me encanta conectar con diferentes personas</b> alrededor del mundo, si quieres puedes decir<b> hola, estaré feliz de conocerte.</b> 😊</em>
