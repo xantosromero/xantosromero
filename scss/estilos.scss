@@ -29,6 +29,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -111,7 +112,7 @@ section {
 .header {
     width: 100%;
     height: 100%;
-    // Aquí se agregarán los estilos para el menu desktop
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -405,7 +406,7 @@ section {
 
                                 // Hover de iconos
                                 i:hover {
-                                    color: var(--secondary-color);
+                                    color: var(--black-first-color);
                                     transform: scale(1.1);
                                 }
                             }
@@ -680,13 +681,67 @@ section {
         display: none;
     }
 
+    // Menu desktop
+    .navbar {
+        height: 80px;
+
+        .header {
+
+            .menu {
+                width: 60%;
+                display: block;
+
+                ul {
+                    position: static;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    li {
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    li.btn-resume a {
+                        padding: 10px;
+                        font-weight: normal;
+                        margin-left: 30px;
+                    }
+
+                    li a {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    /* ========== MAIN BACKGROUND ========== */
+    .hero {
+        height: 75vh;
+    }
 
     /* ========== PROYECTOS ========== */
     .project {
         .project-section {
-
             .project-container {
                 grid-template-columns: repeat(3, 1fr);
+
+                .project-box {
+                    .info-project {
+                        .detail {
+
+                            .detail-1,
+                            .detail-2 {
+                                a {
+                                    font-size: 1.2em;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -707,7 +762,7 @@ section {
 
         .contact-box {
             flex-direction: row;
-            padding-top: 50px;
+            padding: 50px 0px 80px;
 
             .contact-form {
                 width: 65%;
@@ -715,6 +770,8 @@ section {
 
             .contact-info {
                 width: 28%;
+                padding: 0;
+                margin: 10px 0px;
             }
         }
     }
