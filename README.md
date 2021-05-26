@@ -6,12 +6,11 @@
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Conoce un poco más sobre mí...  
 
 ```html
-<h1>Ser Desarrollador Frontend no solo significa seguir una ruta definida</h1>
-<h2>codificando el diseño, estructurando un gran contenido HTML,</h2>
-<h3>CSS, Preprocesadores o JavaScript, sino,</h3>
-<h4>siempre buscar las formas de mejorar los procesos de desarrollo,</h4>
-<h5>corrigiendo errores, iterando y buscando solución a los problemas,</h5>
-<h6>para entregar mejores experiencias a los usuarios.</h6>
+<h1>Ser Desarrollador Frontend significa codificar el diseño estructurando HTML semántico,</h1>
+<h2>CSS, JavaScript o Frameworks, pero también,</h2>
+<h3>siempre buscar la forma de mejorar los procesos de desarrollo,</h3>
+<h4>corriendo errores, iterando y colaborando en equipo,</h4>
+<h5>con el único propósito de entregar experiencias de valor a los usuarios.</h5>
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Me encanta conectar con diferentes personas</b> alrededor del mundo, si quieres puedes decir<b> hola, estaré feliz de conocerte.</b> 😊</em>
