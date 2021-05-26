@@ -29,6 +29,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -111,7 +112,7 @@ section {
 .header {
     width: 100%;
     height: 100%;
-    // Aquí se agregarán los estilos para el menu desktop
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -287,12 +288,14 @@ section {
     padding: 0;
 
     .about-section {
+        padding-bottom: 50px;
+
         .profile {
             text-align: center;
 
             .foto-img {
                 width: 140px;
-                margin-top: -60px;
+                margin-top: -70px;
                 border-radius: 50%;
                 vertical-align: top;
                 border: 8px solid var(--white-first-color);
@@ -311,9 +314,11 @@ section {
             display: grid;
             grid-template-columns: 1fr;
             gap: 20px;
+            padding: 30px 0px;
 
             // Card del proyecto
             .project-box {
+                width: 100%;
                 background-color: var(--white-first-color);
                 border-radius: 10px;
                 box-shadow: 3px 3px 30px 6px var(--gray-second-color);
@@ -342,7 +347,8 @@ section {
 
                         // Titulo del proyecto
                         h3 {
-                            font-size: 1.5em;
+                            font-size: 1.2em;
+                            line-height: 24px;
                         }
 
                         // Color icono titulo proyecto
@@ -355,7 +361,7 @@ section {
                         a,
                         i {
                             padding-left: 5px;
-                            font-size: 1.2em;
+                            font-size: 1em;
                             cursor: pointer;
                         }
 
@@ -400,7 +406,7 @@ section {
 
                                 // Hover de iconos
                                 i:hover {
-                                    color: var(--secondary-color);
+                                    color: var(--black-first-color);
                                     transform: scale(1.1);
                                 }
                             }
@@ -448,7 +454,7 @@ section {
 
         .message {
             color: var(--white-first-color);
-            line-height: 30px;
+            line-height: 26px;
 
             h4 {
                 padding: 10px;
@@ -642,7 +648,10 @@ section {
             }
 
             // Hover
-            .linkedin:hover, .twitter:hover, .github:hover, .facebook:hover {
+            .linkedin:hover,
+            .twitter:hover,
+            .github:hover,
+            .facebook:hover {
                 transform: scale(1.1);
             }
         }
@@ -662,12 +671,108 @@ section {
 /* ========== MEDIA QUERIES ========== */
 @media only screen and (min-width: 1080px) {
 
+    // Estilos generales
+    .text {
+        text-align: center;
+    }
+
     // Ocultar icono
     .toggle {
         display: none;
     }
 
-    // .menu {
-    //     display: flex;
-    // }
+    // Menu desktop
+    .navbar {
+        height: 80px;
+
+        .header {
+
+            .menu {
+                width: 60%;
+                display: block;
+
+                ul {
+                    position: static;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    li {
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    li.btn-resume a {
+                        padding: 10px;
+                        font-weight: normal;
+                        margin-left: 30px;
+                    }
+
+                    li a {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    /* ========== MAIN BACKGROUND ========== */
+    .hero {
+        height: 75vh;
+    }
+
+    /* ========== PROYECTOS ========== */
+    .project {
+        .project-section {
+            .project-container {
+                grid-template-columns: repeat(3, 1fr);
+
+                .project-box {
+                    .info-project {
+                        .detail {
+
+                            .detail-1,
+                            .detail-2 {
+                                a {
+                                    font-size: 1.2em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* ========== CITA ========== */
+    .cite {
+        height: 500px;
+
+        .content-cite {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    }
+
+
+    /* ========== CONTACTO ========== */
+    .contact-section {
+
+        .contact-box {
+            flex-direction: row;
+            padding: 50px 0px 80px;
+
+            .contact-form {
+                width: 65%;
+            }
+
+            .contact-info {
+                width: 28%;
+                padding: 0;
+                margin: 10px 0px;
+            }
+        }
+    }
 }
