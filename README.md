@@ -6,16 +6,15 @@
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Conoce un poco más sobre mí...  
 
 ```html
-<h1>Ser Desarrollador Frontend significa codificar el diseño estructurando HTML semántico,</h1>
-<h2>CSS, JavaScript o Frameworks, pero también,</h2>
-<h3>siempre buscar la forma de mejorar los procesos de desarrollo,</h3>
-<h4>corriendo errores, iterando y colaborando en equipo,</h4>
-<h5>con el único propósito de entregar experiencias de valor a los usuarios.</h5>
+<h1>Traduzco las ideas de las personas en productos digitales</h1>
+<h2>que sean fáciles de usar en cualquier dispositivo,</h2>
+<h3>pero que sean de valor para los usuarios</h3>
 ```
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Me encanta conectar con diferentes personas</b> alrededor del mundo, si quieres puedes decir<b> hola, estaré feliz de conocerte.</b> 😊</em>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Me encanta conectar con diferentes personas</b> alrededor del mundo, puedes decir<b> hola, estaré feliz de conocerte.</b> 😊</em>
 <br>.
 ## 💻 Proyectos
+* [Huddle Landing Page With Curved Sections](https://github.com/xantosromero/huddle-landing-page-curved-sections)
 * [Stats Preview Card Component](https://github.com/xantosromero/stats-preview-card-component)
 * [Single Price Grid Component](https://single-price-grid-component-eta-vert.vercel.app/)
 * [Profile Card Component](https://profile-card-component-self-ten.vercel.app/)
