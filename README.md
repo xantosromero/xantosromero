@@ -6,9 +6,9 @@
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Conoce un poco más sobre mí...  
 
 ```html
-<h1>Traduzco las ideas de las personas en productos digitales</h1>
-<h2>que sean fáciles de usar en cualquier dispositivo,</h2>
-<h3>pero que sean de valor para los usuarios</h3>
+<h1>Me gusta observar cómo las ideas se convierten en realidad</h1>
+<h2>iniciando por un wireframe hasta llegar a un producto digital,</h2>
+<h3>y también cómo estos logran satisfacer las necesidades de los usuarios.</h3>
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Me encanta conectar con diferentes personas</b> alrededor del mundo, puedes decir<b> hola, estaré feliz de conocerte.</b> 😊</em>
